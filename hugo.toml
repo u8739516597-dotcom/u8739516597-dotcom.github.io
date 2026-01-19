@@ -1,0 +1,5 @@
+baseURL = "https://u8739516597-dotcom.github.io/"
+languageCode = "en-us"
+title = "VR Locomotion Blog"
+theme = "PaperMod"
+publishDir = "docs"
