@@ -17,6 +17,7 @@ Blog Website (Most Important)
 
 
 Live site: https://u8739516597-dotcom.github.io/
+This README is for Lab 1 setup. All future assignments will be documented as blog posts in content/posts.
 
 
 
