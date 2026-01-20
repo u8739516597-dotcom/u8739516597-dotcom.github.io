@@ -3,3 +3,5 @@ languageCode = "en-us"
 title = "VR Locomotion Blog"
 theme = "PaperMod"
 publishDir = "docs"
+[params.assets]
+disableFingerprinting = true
