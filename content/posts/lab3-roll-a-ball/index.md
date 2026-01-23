@@ -1,13 +1,10 @@
----
-title: "Lab Homework 3: Roll-a-Ball"
-date: 2026-01-22
-tags:
-  - Unity
-  - Lab
-  - Roll-a-Ball
-  - Mixed Reality
-draft: false
----
++++
+title = 'Lab Homework 3: Roll-a-Ball'
+date = '2026-01-22'
+draft = false
+tags = ['Unity', 'Lab', 'Roll-a-Ball', 'Mixed Reality']
++++
+
 
 
 This post documents my work for Lab 3 (Roll-a-Ball) . I followed the tutorial step by step and wrote down what I did, including problems I met and how I fixed them.
@@ -35,19 +32,19 @@ Step 1: Setting up the game
 
 
 
-1.3 Create a Plane called **Ground**and reset its position
+1.3 Create a Plane called **Ground** and reset its position
 
 ![](3fig04.png)
 
 
 
-**From this step, I learned to use the**F** key to focus on the selected object.**
+**From this step, I learned to use the F key to focus on the selected object.**
 
 
 
 1.4 Change the scale of the Ground object
 
-**Way 1: Use the \*\*R\*\* key to switch to the Scale tool, then drag the handles to change the scale.**
+**Way 1: Use the R key to switch to the Scale tool, then drag the handles to change the scale.**
 
 **Way 2: Change the scale values directly in the Transform component.**
 
@@ -57,7 +54,7 @@ Step 1: Setting up the game
 
 
 
- 1.5 Create a Sphere called \*\*Player\*\* and place it on top of the plane
+ 1.5 Create a Sphere called Player and place it on top of the plane
 
 ![](3fig06.png)
 
