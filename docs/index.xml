@@ -6,8 +6,24 @@
     <description>Recent content on VR Locomotion Blog</description>
     <generator>Hugo -- 0.154.5</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 19 Jan 2026 21:31:32 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 22 Jan 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://u8739516597-dotcom.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lab Homework 3: Roll-a-Ball</title>
+      <link>https://u8739516597-dotcom.github.io/posts/lab3-roll-a-ball/</link>
+      <pubDate>Thu, 22 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://u8739516597-dotcom.github.io/posts/lab3-roll-a-ball/</guid>
+      <description>&lt;p&gt;This post documents my work for Lab 3 (Roll-a-Ball) . I followed the tutorial step by step and wrote down what I did, including problems I met and how I fixed them.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Step 1: Setting up the game&lt;/p&gt;
+&lt;p&gt;1.1 Create a new project&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://u8739516597-dotcom.github.io/posts/lab3-roll-a-ball/3fig01.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;1.2 Create a new scene called &lt;strong&gt;Minigame&lt;/strong&gt; and save it&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://u8739516597-dotcom.github.io/posts/lab3-roll-a-ball/3fig02.png&#34;&gt;  &lt;img loading=&#34;lazy&#34; src=&#34;https://u8739516597-dotcom.github.io/posts/lab3-roll-a-ball/3fig03.png&#34;&gt; |&lt;/p&gt;
+&lt;p&gt;1.3 Create a Plane called &lt;strong&gt;Ground&lt;/strong&gt;and reset its position&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://u8739516597-dotcom.github.io/posts/lab3-roll-a-ball/3fig04.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;From this step, I learned to use the&lt;/strong&gt;F** key to focus on the selected object.**&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Lab1 Blog Setup</title>
       <link>https://u8739516597-dotcom.github.io/posts/lab1-blog-setup/</link>

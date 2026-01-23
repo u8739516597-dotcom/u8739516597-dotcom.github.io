@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on VR Locomotion Blog</title>
-    <link>https://u8739516597-dotcom.github.io/posts/</link>
-    <description>Recent content in Posts on VR Locomotion Blog</description>
+    <title>Unity on VR Locomotion Blog</title>
+    <link>https://u8739516597-dotcom.github.io/tags/unity/</link>
+    <description>Recent content in Unity on VR Locomotion Blog</description>
     <generator>Hugo -- 0.154.5</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 22 Jan 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://u8739516597-dotcom.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://u8739516597-dotcom.github.io/tags/unity/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Lab Homework 3: Roll-a-Ball</title>
       <link>https://u8739516597-dotcom.github.io/posts/lab3-roll-a-ball/</link>
@@ -23,13 +23,6 @@
 &lt;p&gt;1.3 Create a Plane called &lt;strong&gt;Ground&lt;/strong&gt;and reset its position&lt;/p&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://u8739516597-dotcom.github.io/posts/lab3-roll-a-ball/3fig04.png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;From this step, I learned to use the&lt;/strong&gt;F** key to focus on the selected object.**&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Lab1 Blog Setup</title>
-      <link>https://u8739516597-dotcom.github.io/posts/lab1-blog-setup/</link>
-      <pubDate>Mon, 19 Jan 2026 21:31:32 +0100</pubDate>
-      <guid>https://u8739516597-dotcom.github.io/posts/lab1-blog-setup/</guid>
-      <description>&lt;p&gt;zpw&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
