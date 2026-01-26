@@ -10,7 +10,10 @@ draft: false
 
 ---
 
+Unity environment setup on Windows: installed Unity 2020.3.49f1 (LTS), added required modules (IL2CPP, Android Build Support, OpenJDK), and verified by creating a 3D project.
 
+
+---
 
 **1. Goal**
 

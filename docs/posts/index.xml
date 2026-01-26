@@ -13,7 +13,9 @@
       <link>https://u8739516597-dotcom.github.io/posts/lab2-unity-setup/</link>
       <pubDate>Sat, 24 Jan 2026 00:00:00 +0000</pubDate>
       <guid>https://u8739516597-dotcom.github.io/posts/lab2-unity-setup/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;1. Goal&lt;/strong&gt;&lt;/p&gt;
+      <description>&lt;p&gt;Unity environment setup on Windows: installed Unity 2020.3.49f1 (LTS), added required modules (IL2CPP, Android Build Support, OpenJDK), and verified by creating a 3D project.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;1. Goal&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;The goal of this lab is to complete the Unity development environment setup and make sure Unity can run correctly.&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;strong&gt;2. Environment Information&lt;/strong&gt;&lt;/p&gt;
@@ -22,10 +24,7 @@
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://u8739516597-dotcom.github.io/posts/lab2-unity-setup/2fig01.png&#34;&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;strong&gt;3. Install Unity 2020.3.49f1 and Modules&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;3.1 Install Unity via Download Archive&lt;/p&gt;
-&lt;p&gt;1. Open the Unity Download Archive website&lt;/p&gt;
-&lt;p&gt;2. Find Unity 2020 LTS and select version **2020.3.49f1**&lt;/p&gt;
-&lt;p&gt;3. Click Install and open Unity Hub to start installation&lt;/p&gt;</description>
+&lt;p&gt;3.1 Install Unity via Download Archive&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lab 3: Roll-a-Ball</title>
