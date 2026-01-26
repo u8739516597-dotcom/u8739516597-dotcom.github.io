@@ -1,17 +1,13 @@
 ---
-
-title: "Lab 1: VR Locomotion Blog (Hugo + GitHub Pages)"
-
-date: 2026-01-26
-
+title: "Lab 1: VR Locomotion Blog"
+date: 2026-01-20
 tags:
-  - Hugo
-  - GitHub Pages
-  - PaperMod
+  - Unity
   - Lab
   - Mixed Reality
-
+draft: false
 ---
+
 
 Authors: Peiwen Zhang, Zeyu Liang.
 
