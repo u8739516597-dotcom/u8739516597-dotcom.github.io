@@ -1,5 +1,5 @@
 +++
-title = 'Lab Homework 3: Roll-a-Ball'
+title = 'Lab 3: Roll-a-Ball'
 date = '2026-01-22'
 draft = false
 tags = ['Unity', 'Lab', 'Roll-a-Ball', 'Mixed Reality']
