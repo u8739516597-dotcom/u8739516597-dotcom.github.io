@@ -1,6 +1,6 @@
 ---
 title: "Lab 1: VR Locomotion Blog"
-date: 2026-01-20
+date: 2026-01-18
 tags:
   - Unity
   - Lab
