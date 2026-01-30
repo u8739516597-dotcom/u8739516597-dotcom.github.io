@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Lab 1: VR Locomotion Blog | VR Locomotion Blog</title>
+<meta name="keywords" content="Unity, Lab, Mixed Reality">
+<meta name="description" content="Authors: Peiwen Zhang, Zeyu Liang.
+Université Paris-Saclay, HCI M1.
+
+1. Final Result
+Our group blog website is successfully online. It can be opened normally and the theme style is displayed correctly.
+Website link:
+https://u8739516597-dotcom.github.io/
+
+
+2. Our Solution
+We use **Hugo** as a static site generator, use **PaperMod** as the theme, and publish the website by **GitHub Pages**.
+
+3. Project Structure and Publishing Method
+Our repository includes two main parts:
+1) Hugo source files">
+<meta name="author" content="">
+<link rel="canonical" href="https://u8739516597-dotcom.github.io/posts/lab1-vr-locomotion-blog/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.css" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://u8739516597-dotcom.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://u8739516597-dotcom.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://u8739516597-dotcom.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://u8739516597-dotcom.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://u8739516597-dotcom.github.io/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://u8739516597-dotcom.github.io/posts/lab1-vr-locomotion-blog/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><meta property="og:url" content="https://u8739516597-dotcom.github.io/posts/lab1-vr-locomotion-blog/">
+  <meta property="og:site_name" content="VR Locomotion Blog">
+  <meta property="og:title" content="Lab 1: VR Locomotion Blog">
+  <meta property="og:description" content="Authors: Peiwen Zhang, Zeyu Liang.
+Université Paris-Saclay, HCI M1.
+1. Final Result
+Our group blog website is successfully online. It can be opened normally and the theme style is displayed correctly.
+Website link:
+https://u8739516597-dotcom.github.io/ 2. Our Solution
+We use **Hugo** as a static site generator, use **PaperMod** as the theme, and publish the website by **GitHub Pages**.
+3. Project Structure and Publishing Method
+Our repository includes two main parts:
+1) Hugo source files">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-01-18T00:00:00+00:00">
+    <meta property="article:modified_time" content="2026-01-18T00:00:00+00:00">
+    <meta property="article:tag" content="Unity">
+    <meta property="article:tag" content="Lab">
+    <meta property="article:tag" content="Mixed Reality">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Lab 1: VR Locomotion Blog">
+<meta name="twitter:description" content="Authors: Peiwen Zhang, Zeyu Liang.
+Université Paris-Saclay, HCI M1.
+
+1. Final Result
+Our group blog website is successfully online. It can be opened normally and the theme style is displayed correctly.
+Website link:
+https://u8739516597-dotcom.github.io/
+
+
+2. Our Solution
+We use **Hugo** as a static site generator, use **PaperMod** as the theme, and publish the website by **GitHub Pages**.
+
+3. Project Structure and Publishing Method
+Our repository includes two main parts:
+1) Hugo source files">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://u8739516597-dotcom.github.io/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Lab 1: VR Locomotion Blog",
+      "item": "https://u8739516597-dotcom.github.io/posts/lab1-vr-locomotion-blog/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Lab 1: VR Locomotion Blog",
+  "name": "Lab 1: VR Locomotion Blog",
+  "description": "Authors: Peiwen Zhang, Zeyu Liang.\nUniversité Paris-Saclay, HCI M1.\n1. Final Result\nOur group blog website is successfully online. It can be opened normally and the theme style is displayed correctly.\nWebsite link:\nhttps://u8739516597-dotcom.github.io/ 2. Our Solution\nWe use **Hugo** as a static site generator, use **PaperMod** as the theme, and publish the website by **GitHub Pages**.\n3. Project Structure and Publishing Method\nOur repository includes two main parts:\n1) Hugo source files\n",
+  "keywords": [
+    "Unity", "Lab", "Mixed Reality"
+  ],
+  "articleBody": "Authors: Peiwen Zhang, Zeyu Liang.\nUniversité Paris-Saclay, HCI M1.\n1. Final Result\nOur group blog website is successfully online. It can be opened normally and the theme style is displayed correctly.\nWebsite link:\nhttps://u8739516597-dotcom.github.io/ 2. Our Solution\nWe use **Hugo** as a static site generator, use **PaperMod** as the theme, and publish the website by **GitHub Pages**.\n3. Project Structure and Publishing Method\nOur repository includes two main parts:\n1) Hugo source files\nThese files are used to write posts and configure the website, including the content folder, the themes folder, and the Hugo configuration file.\n2) Generated static website files (docs)\nThe generated static website is placed in the docs folder. GitHub Pages publishes the website from the docs folder in the main branch.\nOur publishing workflow is:\nAfter we update content or configuration locally, we generate the website into docs, then commit and push to GitHub. After that, the online website is updated. 4. Problems and Solutions\n4.1 Problem 1: git push error 403 / permission denied\nProblem:\nWhen pushing to GitHub, we got a 403 or permission denied error, so we could not push successfully.\nReason:\nOn Windows, Git may still use an old GitHub account credential.\nSolution:\nWe opened **Windows Credential Manager**, removed the old GitHub credentials, logged in again, and then pushed successfully.\n4.2 Problem 2: CSS does not work on GitHub Pages\nProblem:\nThe website could open, but the CSS style was missing. The page looked like plain HTML.\nReason:\nPaperMod uses fingerprinting and SRI checks for assets. In the GitHub Pages environment, this caused asset loading issues.\nSolution:\nWe disabled the fingerprinting-related options in the Hugo configuration file, regenerated the docs folder, and pushed again. After that, the theme worked correctly.\n5. Current Status and Next Plan\nCurrent status:\n1. GitHub Pages website is online and accessible\n2. Theme style works correctly\n3. Repository structure follows the docs publishing requirement\nNext plan:\nWe will continue using this blog to publish future lab work, including Unity experiments, screenshots, and reflections.\n",
+  "wordCount" : "336",
+  "inLanguage": "en",
+  "datePublished": "2026-01-18T00:00:00Z",
+  "dateModified": "2026-01-18T00:00:00Z",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://u8739516597-dotcom.github.io/posts/lab1-vr-locomotion-blog/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "VR Locomotion Blog",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://u8739516597-dotcom.github.io/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://u8739516597-dotcom.github.io/" accesskey="h" title="VR Locomotion Blog (Alt + H)">VR Locomotion Blog</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Lab 1: VR Locomotion Blog
+    </h1>
+    <div class="post-meta"><span title='2026-01-18 00:00:00 +0000 UTC'>January 18, 2026</span>
+
+</div>
+  </header> 
+  <div class="post-content"><p>Authors: Peiwen Zhang, Zeyu Liang.</p>
+<p>Université Paris-Saclay, HCI M1.</p>
+<hr>
+<p><strong>1. Final Result</strong></p>
+<p>Our group blog website is successfully online. It can be opened normally and the theme style is displayed correctly.</p>
+<p>Website link:</p>
+<p><a href="https://u8739516597-dotcom.github.io/">https://u8739516597-dotcom.github.io/</a>
+<img loading="lazy" src="/posts/lab1-vr-locomotion-blog/1fig01.png"><img loading="lazy" src="/posts/lab1-vr-locomotion-blog/1fig02.png"></p>
+<hr>
+<p><strong>2. Our Solution</strong></p>
+<p>We use **Hugo** as a static site generator, use **PaperMod** as the theme, and publish the website by **GitHub Pages**.</p>
+<hr>
+<p><strong>3. Project Structure and Publishing Method</strong></p>
+<p>Our repository includes two main parts:</p>
+<p>1) Hugo source files</p>
+<p>These files are used to write posts and configure the website, including the <code>content</code> folder, the <code>themes</code> folder, and the Hugo configuration file.</p>
+<p>2) Generated static website files (docs)</p>
+<p>The generated static website is placed in the <code>docs</code> folder. GitHub Pages publishes the website from the <code>docs</code> folder in the <code>main</code> branch.</p>
+<p>Our publishing workflow is:</p>
+<p>After we update content or configuration locally, we generate the website into <code>docs</code>, then commit and push to GitHub. After that, the online website is updated.
+<img loading="lazy" src="/posts/lab1-vr-locomotion-blog/1fig03.png"><img loading="lazy" src="/posts/lab1-vr-locomotion-blog/1fig04.png"></p>
+<hr>
+<p><strong>4. Problems and Solutions</strong></p>
+<p>4.1 Problem 1: git push error 403 / permission denied</p>
+<p><strong>Problem:</strong></p>
+<p>When pushing to GitHub, we got a 403 or permission denied error, so we could not push successfully.</p>
+<p><strong>Reason:</strong></p>
+<p>On Windows, Git may still use an old GitHub account credential.</p>
+<p><strong>Solution:</strong></p>
+<p>We opened **Windows Credential Manager**, removed the old GitHub credentials, logged in again, and then pushed successfully.</p>
+<p><img loading="lazy" src="/posts/lab1-vr-locomotion-blog/1fig05.png"></p>
+<hr>
+<p>4.2 Problem 2: CSS does not work on GitHub Pages</p>
+<p><strong>Problem:</strong></p>
+<p>The website could open, but the CSS style was missing. The page looked like plain HTML.</p>
+<p><strong>Reason:</strong></p>
+<p>PaperMod uses fingerprinting and SRI checks for assets. In the GitHub Pages environment, this caused asset loading issues.</p>
+<p><strong>Solution:</strong></p>
+<p>We disabled the fingerprinting-related options in the Hugo configuration file, regenerated the <code>docs</code> folder, and pushed again. After that, the theme worked correctly.</p>
+<p><img loading="lazy" src="/posts/lab1-vr-locomotion-blog/1fig06.png"><img loading="lazy" src="/posts/lab1-vr-locomotion-blog/1fig07.png"></p>
+<hr>
+<p><strong>5. Current Status and Next Plan</strong></p>
+<p>Current status:</p>
+<p>1. GitHub Pages website is online and accessible</p>
+<p>2. Theme style works correctly</p>
+<p>3. Repository structure follows the <code>docs</code> publishing requirement</p>
+<p>Next plan:</p>
+<p>We will continue using this blog to publish future lab work, including Unity experiments, screenshots, and reflections.</p>
+<p><img loading="lazy" src="/posts/lab1-vr-locomotion-blog/1fig08.png"></p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://u8739516597-dotcom.github.io/tags/unity/">Unity</a></li>
+      <li><a href="https://u8739516597-dotcom.github.io/tags/lab/">Lab</a></li>
+      <li><a href="https://u8739516597-dotcom.github.io/tags/mixed-reality/">Mixed Reality</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="https://u8739516597-dotcom.github.io/">VR Locomotion Blog</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

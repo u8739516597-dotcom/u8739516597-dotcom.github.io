@@ -1,18 +1,16 @@
-+++
-title = 'Lab 3: Roll-a-Ball'
-date = '2026-01-24'
-weight: 3
-draft = false
-tags = ['Unity', 'Lab', 'Roll-a-Ball', 'Mixed Reality']
-+++
-
-
-
-This post documents my work for Lab 3 (Roll-a-Ball) . I followed the tutorial step by step and wrote down what I did, including problems I met and how I fixed them.
-
-
-
 ---
+title: "Lab Homework 3: Roll-a-Ball"
+date: 2026-01-22
+weight: 3
+summary: "Step-by-step notes for the Roll-a-Ball tutorial, including problems and fixes."
+tags:
+  - Unity
+  - Lab
+  - Roll-a-Ball
+  - Mixed Reality
+draft: false
+---
+
 
 
 
