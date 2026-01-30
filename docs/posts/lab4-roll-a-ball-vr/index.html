@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto" data-theme="auto">
 
-<head><meta charset="utf-8">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="index, follow">
+<meta name="robots" content="noindex, nofollow">
 <title>Lab 4: Unity Roll-a-Ball in VR | VR Locomotion Blog</title>
 <meta name="keywords" content="Unity, VR, Lab, Mixed Reality">
 <meta name="description" content="Converted Roll-a-Ball to VR: Android build setup, Meta SDK import, XR settings, scene setup, direct selection &#43; raycasting. Documented issues and what I tried.">
 <meta name="author" content="">
-<link rel="canonical" href="https://u8739516597-dotcom.github.io/posts/lab4-roll-a-ball-vr/">
+<link rel="canonical" href="http://localhost:1313/posts/lab4-roll-a-ball-vr/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.css" rel="preload stylesheet" as="style">
-<link rel="icon" href="https://u8739516597-dotcom.github.io/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https://u8739516597-dotcom.github.io/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://u8739516597-dotcom.github.io/favicon-32x32.png">
-<link rel="apple-touch-icon" href="https://u8739516597-dotcom.github.io/apple-touch-icon.png">
-<link rel="mask-icon" href="https://u8739516597-dotcom.github.io/safari-pinned-tab.svg">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="https://u8739516597-dotcom.github.io/posts/lab4-roll-a-ball-vr/">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/lab4-roll-a-ball-vr/">
 <noscript>
     <style>
         #theme-toggle,
@@ -70,79 +70,13 @@
         document.querySelector("html").dataset.theme = 'light';
     }
 
-</script><meta property="og:url" content="https://u8739516597-dotcom.github.io/posts/lab4-roll-a-ball-vr/">
-  <meta property="og:site_name" content="VR Locomotion Blog">
-  <meta property="og:title" content="Lab 4: Unity Roll-a-Ball in VR">
-  <meta property="og:description" content="Converted Roll-a-Ball to VR: Android build setup, Meta SDK import, XR settings, scene setup, direct selection &#43; raycasting. Documented issues and what I tried.">
-  <meta property="og:locale" content="en-us">
-  <meta property="og:type" content="article">
-    <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2026-01-26T00:00:00+00:00">
-    <meta property="article:modified_time" content="2026-01-26T00:00:00+00:00">
-    <meta property="article:tag" content="Unity">
-    <meta property="article:tag" content="VR">
-    <meta property="article:tag" content="Lab">
-    <meta property="article:tag" content="Mixed Reality">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Lab 4: Unity Roll-a-Ball in VR">
-<meta name="twitter:description" content="Converted Roll-a-Ball to VR: Android build setup, Meta SDK import, XR settings, scene setup, direct selection &#43; raycasting. Documented issues and what I tried.">
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position":  1 ,
-      "name": "Posts",
-      "item": "https://u8739516597-dotcom.github.io/posts/"
-    }, 
-    {
-      "@type": "ListItem",
-      "position":  2 ,
-      "name": "Lab 4: Unity Roll-a-Ball in VR",
-      "item": "https://u8739516597-dotcom.github.io/posts/lab4-roll-a-ball-vr/"
-    }
-  ]
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "headline": "Lab 4: Unity Roll-a-Ball in VR",
-  "name": "Lab 4: Unity Roll-a-Ball in VR",
-  "description": "Converted Roll-a-Ball to VR: Android build setup, Meta SDK import, XR settings, scene setup, direct selection + raycasting. Documented issues and what I tried.",
-  "keywords": [
-    "Unity", "VR", "Lab", "Mixed Reality"
-  ],
-  "articleBody": "Overview\nIn this lab, I converted the Roll-a-Ball project to VR. I set the project to Android, imported the Meta SDK, enabled XR, and tested interactions in VR.\nStep 1: Create a 3D project and switch to Android platform\nStep 2: Import Meta All-in-one SDK\nProblem: At first, I could not find tutorial examples, so I checked the README file and followed it.\nStep 3: Install XR Plugin Management\nStep 4: Create a new scene\nStep 5: Settings for controllers\nStep 6: Setup the scene\nOne major problem I encountered was that, since I’m working on a MacBook, I couldn’t run or test the VR project directly on a Meta headset. To overcome this, I had to rely on the Meta XR Simulator for development and testing. This required configuring the project in Unity 2022, ensuring compatibility with the OpenXR plugin, and properly setting up the simulator as the active runtime. Only after completing these steps was I finally able to simulate controller and headset input on my local machine.\nStep 7: Add collider for Roll-a-Ball\nStep 8: Add layers and assign them to objects\nAt first, I did not understand layers clearly. Later, I realized layers are just labels for detection. The order does not matter.\nStep 9: Add collider to hand anchors and set them to the selection layer\nStep 10: Disable collision between ?oll-a-Ball??and ?election??layers\nStep 11: Add Rigidbody and set different values\nBecause we use trigger events, objects need Rigidbody. Hand anchors are set to Kinematic (no gravity). The ball uses gravity (not kinematic).\nStep 12: write the interaction script and assign it to the hand anchor In this step we wrote a script allowing the controller to pick up and release a ball in VR. When the controller enters the ball? collider and the player pulls the trigger, the ball becomes a child of the controller and follows its movement. When the trigger is released, the ball is detached, gravity is enabled again, and the ball continues moving based on the velocity of the hand.\nDirect Selection Problems / Notes\n1) PickUp objects no longer detected\nI implemented direct selection and grabbing, but the original PickUp detection stopped working. I checked colliders, trigger settings, tags, and layers, but it still did not work. Even when I created a new cube with Is Trigger and tag PickUp, nothing appeared in the console.\n2) Raycasting issue (material / color)\nI tried to change the object color when hit by the ray, but I lost the material. In the end, I only displayed the ray and used it to move the object.\nResult\nThe VR version can run in VR, and direct selection works (grab/release). Raycasting partially works (ray + moving object).\n",
-  "wordCount" : "454",
-  "inLanguage": "en",
-  "datePublished": "2026-01-26T00:00:00Z",
-  "dateModified": "2026-01-26T00:00:00Z",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://u8739516597-dotcom.github.io/posts/lab4-roll-a-ball-vr/"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "VR Locomotion Blog",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://u8739516597-dotcom.github.io/favicon.ico"
-    }
-  }
-}
 </script>
 </head>
 <body id="top">
     <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="https://u8739516597-dotcom.github.io/" accesskey="h" title="VR Locomotion Blog (Alt + H)">VR Locomotion Blog</a>
+            <a href="http://localhost:1313/" accesskey="h" title="VR Locomotion Blog (Alt + H)">VR Locomotion Blog</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -252,17 +186,17 @@
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="https://u8739516597-dotcom.github.io/tags/unity/">Unity</a></li>
-      <li><a href="https://u8739516597-dotcom.github.io/tags/vr/">VR</a></li>
-      <li><a href="https://u8739516597-dotcom.github.io/tags/lab/">Lab</a></li>
-      <li><a href="https://u8739516597-dotcom.github.io/tags/mixed-reality/">Mixed Reality</a></li>
+      <li><a href="http://localhost:1313/tags/unity/">Unity</a></li>
+      <li><a href="http://localhost:1313/tags/vr/">VR</a></li>
+      <li><a href="http://localhost:1313/tags/lab/">Lab</a></li>
+      <li><a href="http://localhost:1313/tags/mixed-reality/">Mixed Reality</a></li>
     </ul>
   </footer>
 </article>
     </main>
     
 <footer class="footer">
-        <span>&copy; 2026 <a href="https://u8739516597-dotcom.github.io/">VR Locomotion Blog</a></span> · 
+        <span>&copy; 2026 <a href="http://localhost:1313/">VR Locomotion Blog</a></span> · 
 
     <span>
         Powered by

@@ -2,42 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://u8739516597-dotcom.github.io/posts/lab3-roll-a-ball/</loc>
+    <loc>http://localhost:1313/posts/lab3-roll-a-ball/</loc>
     <lastmod>2026-01-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://u8739516597-dotcom.github.io/posts/lab4-roll-a-ball-vr/</loc>
+    <loc>http://localhost:1313/posts/lab4-roll-a-ball-vr/</loc>
     <lastmod>2026-01-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://u8739516597-dotcom.github.io/tags/lab/</loc>
+    <loc>http://localhost:1313/tags/lab/</loc>
     <lastmod>2026-01-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://u8739516597-dotcom.github.io/tags/mixed-reality/</loc>
+    <loc>http://localhost:1313/tags/mixed-reality/</loc>
     <lastmod>2026-01-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://u8739516597-dotcom.github.io/posts/</loc>
+    <loc>http://localhost:1313/posts/</loc>
     <lastmod>2026-01-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://u8739516597-dotcom.github.io/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2026-01-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://u8739516597-dotcom.github.io/tags/unity/</loc>
+    <loc>http://localhost:1313/tags/unity/</loc>
     <lastmod>2026-01-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://u8739516597-dotcom.github.io/tags/vr/</loc>
+    <loc>http://localhost:1313/tags/vr/</loc>
     <lastmod>2026-01-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://u8739516597-dotcom.github.io/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2026-01-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://u8739516597-dotcom.github.io/tags/roll-a-ball/</loc>
+    <loc>http://localhost:1313/tags/roll-a-ball/</loc>
     <lastmod>2026-01-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://u8739516597-dotcom.github.io/posts/lab2-unity-setup/</loc>
+    <loc>http://localhost:1313/posts/lab2-unity-setup/</loc>
     <lastmod>2026-01-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://u8739516597-dotcom.github.io/posts/lab1-vr-locomotion-blog/</loc>
+    <loc>http://localhost:1313/posts/lab1-vr-locomotion-blog/</loc>
     <lastmod>2026-01-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://u8739516597-dotcom.github.io/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url>
 </urlset>

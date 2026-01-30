@@ -1,5 +1,5 @@
 ---
-title: "Lab Homework 3: Roll-a-Ball"
+title: "Lab 3: Roll-a-Ball"
 date: 2026-01-22
 weight: 3
 summary: "Step-by-step notes for the Roll-a-Ball tutorial, including problems and fixes."
@@ -11,6 +11,15 @@ tags:
 draft: false
 ---
 
+
+
+Authors: Peiwen Zhang, Zeyu Liang.
+
+
+Université Paris-Saclay, HCI M1.
+
+
+---
 
 
 
