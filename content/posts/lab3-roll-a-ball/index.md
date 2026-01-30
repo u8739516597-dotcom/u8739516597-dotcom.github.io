@@ -1,6 +1,7 @@
 +++
 title = 'Lab 3: Roll-a-Ball'
 date = '2026-01-24'
+weight: 3
 draft = false
 tags = ['Unity', 'Lab', 'Roll-a-Ball', 'Mixed Reality']
 +++
@@ -21,7 +22,8 @@ Step 1: Setting up the game
 
  1.1 Create a new project
 
-![](3fig01.png)
+ ![](3fig01.png) 
+
 
 
 
