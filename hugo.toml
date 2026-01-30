@@ -4,24 +4,16 @@ title = "VR Locomotion Blog"
 theme = "PaperMod"
 publishDir = "docs"
 
-# ========== 允许在 Markdown 里用 HTML（img width 等） ==========
+# allow HTML in Markdown (img width, etc.)
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
 
-# ========== PaperMod 参数 ==========
 [params]
   mainSections = ["posts"]
   defaultContentLanguage = "en"
-
-  # ❗关键：关闭首页 profile / 单篇内容模式
   profileMode = { enabled = false }
 
-# ========== 列表页排序方式 ==========
-[params.list]
-  sort = "weight"
-
-# ========== PaperMod 资源设置 ==========
 [params.assets]
   disableFingerprinting = true
