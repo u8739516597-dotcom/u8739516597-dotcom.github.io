@@ -6,7 +6,7 @@
     <description>Recent content on VR Locomotion Blog</description>
     <generator>Hugo -- 0.154.5</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 26 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Jan 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://u8739516597-dotcom.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Lab 3: Roll-a-Ball</title>
@@ -21,6 +21,17 @@
       <pubDate>Mon, 26 Jan 2026 00:00:00 +0000</pubDate>
       <guid>https://u8739516597-dotcom.github.io/posts/lab4-roll-a-ball-vr/</guid>
       <description>Converted Roll-a-Ball to VR: Android build setup, Meta SDK import, XR settings, scene setup, direct selection + raycasting. Documented issues and what I tried.</description>
+    </item>
+    <item>
+      <title>Lecture 1: VR Locomotion Ideas</title>
+      <link>https://u8739516597-dotcom.github.io/posts/lecture1-vr-locomotion-ideas/</link>
+      <pubDate>Thu, 29 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://u8739516597-dotcom.github.io/posts/lecture1-vr-locomotion-ideas/</guid>
+      <description>&lt;p&gt;**Idea1: Footstep-based Locomotion**&lt;/p&gt;
+&lt;p&gt;**Goal**&lt;/p&gt;
+&lt;p&gt;The goal of this approach is to keep the feeling of walking while reducing the amount of physical space needed in the real world, so that continuous walking in VR can be supported in a small physical space.&lt;/p&gt;
+&lt;p&gt;**How it works**&lt;/p&gt;
+&lt;p&gt;The system uses an MPU6050 sensor to detect the user’s footstep movements or walking actions, such as foot lifting, rhythm, and step frequency, instead of the user’s actual physical displacement. The user changes their facing direction in the real world to control the walking direction in VR. Then, by stepping in place or making small walking movements, the user’s rhythm or step frequency determines the walking speed in the virtual environment.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lab 2: Unity Setup Report</title>
