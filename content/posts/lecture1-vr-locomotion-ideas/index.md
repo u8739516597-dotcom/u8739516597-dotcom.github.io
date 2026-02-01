@@ -10,6 +10,8 @@ draft: false
 
 ---
 
+
+
 \*\*Idea1: Footstep-based Locomotion\*\*
 
 \*\*Goal\*\*
@@ -26,19 +28,21 @@ In this way, the bodily feeling of “walking” is preserved, while the user do
 
 <img src="1lec01.png" width="400" />
 
+
+
 \*\*Evaluation\*\*
 
-Compare with joystick-based locomotion and real walking locomotion
+\- Compare with joystick-based locomotion and real walking locomotion
 
-Record the time required to complete the route
+\- Record the time required to complete the route
 
-Evaluate presence, motion sickness, and user comfort
+\- Evaluate presence, motion sickness, and user comfort
 
-Use a subjective questionnaire to ask whether the walking feels natural, easy to understand, and physically tiring
+\- Use a subjective questionnaire to ask whether the walking feels natural, easy to understand, and physically tiring
+
+
 
 ---
-
-
 
 
 
@@ -58,15 +62,17 @@ By using a “plan first, then move” mechanism, this approach reduces the need
 
 <img src="1lec02.png" width="400" />
 
+
+
 \*\*Evaluation\*\*
 
-Compare with free locomotion methods (such as joystick locomotion) by completing the same coin-collection task in the same map
+\- Compare with free locomotion methods (such as joystick locomotion) by completing the same coin-collection task in the same map
 
-Record the time required to complete the task
+\- Record the time required to complete the task
 
-Evaluate the user’s confidence in path control and the ease of task completion
+\- Evaluate the user’s confidence in path control and the ease of task completion
 
-Subjective questionnaire: whether the method is easy to understand, helpful for task completion, and overly restrictive
+\- Subjective questionnaire: whether the method is easy to understand, helpful for task completion, and overly restrictive
 
 
 
@@ -82,25 +88,25 @@ Similar to the first locomotion method, this approach enables movement in the VR
 
 This locomotion method aims to use natural arm swinging to enhance bodily involvement in walking, while reducing the dependence on real-world physical movement, allowing users to achieve continuous movement in a small physical space.
 
+
+
 \*\*How it works\*\*
 
 The system detects the swinging motion of both hands through the movement of the controllers, such as swing amplitude, frequency, and rhythm. When the user performs arm swinging motions similar to walking in the real world, the system maps these swinging signals to forward movement in the VR environment. The frequency and amplitude of the hand swings can affect the movement speed in VR, while the walking direction is determined by the user’s facing direction or head orientation.
 
 In this way, the user does not need to physically walk and can experience walking in the virtual world simply by swinging their hands.
 
+
+
 \*\*Evaluation\*\*
 
-Compare with joystick locomotion and footstep-based locomotion
+\- Compare with joystick locomotion and footstep-based locomotion
 
-Record the time required to complete the task or route
+\- Record the time required to complete the task or route
 
-Evaluate presence, motion sickness, and upper-body fatigue
+\- Evaluate presence, motion sickness, and upper-body fatigue
 
-Subjective questionnaire: whether the motion feels natural, easy to learn, and physically tiring
-
-
-
-
+\- Subjective questionnaire: whether the motion feels natural, easy to learn, and physically tiring
 
 
 
