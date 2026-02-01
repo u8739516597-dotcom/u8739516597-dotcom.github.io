@@ -1,7 +1,7 @@
 ---
-title: "Lab 3: Roll-a-Ball"
+title: "Lab 3: roll-a-ball"
 date: 2026-01-22
-weight: 3
+weight: 4
 summary: "Step-by-step notes for the Roll-a-Ball tutorial, including problems and fixes."
 tags:
   - Unity

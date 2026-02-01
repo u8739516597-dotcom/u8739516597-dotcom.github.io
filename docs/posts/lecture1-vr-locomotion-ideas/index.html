@@ -7,10 +7,10 @@
 <meta name="robots" content="noindex, nofollow">
 <title>Lecture 1: VR Locomotion Ideas | VR Locomotion Blog</title>
 <meta name="keywords" content="">
-<meta name="description" content="**Idea1: Footstep-based Locomotion**
-**Goal**
+<meta name="description" content="Idea1: Footstep-based Locomotion
+Goal
 The goal of this approach is to keep the feeling of walking while reducing the amount of physical space needed in the real world, so that continuous walking in VR can be supported in a small physical space.
-**How it works**
+How it works
 The system uses an MPU6050 sensor to detect the user’s footstep movements or walking actions, such as foot lifting, rhythm, and step frequency, instead of the user’s actual physical displacement. The user changes their facing direction in the real world to control the walking direction in VR. Then, by stepping in place or making small walking movements, the user’s rhythm or step frequency determines the walking speed in the virtual environment.">
 <meta name="author" content="">
 <link rel="canonical" href="http://localhost:1313/posts/lecture1-vr-locomotion-ideas/">
@@ -120,40 +120,40 @@ The system uses an MPU6050 sensor to detect the user’s footstep movements or w
 
 </div>
   </header> 
-  <div class="post-content"><p>**Idea1: Footstep-based Locomotion**</p>
-<p>**Goal**</p>
+  <div class="post-content"><p><strong>Idea1: Footstep-based Locomotion</strong></p>
+<p><strong>Goal</strong></p>
 <p>The goal of this approach is to keep the feeling of walking while reducing the amount of physical space needed in the real world, so that continuous walking in VR can be supported in a small physical space.</p>
-<p>**How it works**</p>
+<p><strong>How it works</strong></p>
 <p>The system uses an MPU6050 sensor to detect the user’s footstep movements or walking actions, such as foot lifting, rhythm, and step frequency, instead of the user’s actual physical displacement. The user changes their facing direction in the real world to control the walking direction in VR. Then, by stepping in place or making small walking movements, the user’s rhythm or step frequency determines the walking speed in the virtual environment.</p>
 <p>In this way, the bodily feeling of “walking” is preserved, while the user does not need to physically walk a long distance.</p>
 <img src="1lec01.png" width="400" />
-<p>**Evaluation**</p>
+<p><strong>Evaluation</strong></p>
 <p>- Compare with joystick-based locomotion and real walking locomotion</p>
 <p>- Record the time required to complete the route</p>
 <p>- Evaluate presence, motion sickness, and user comfort</p>
 <p>- Use a subjective questionnaire to ask whether the walking feels natural, easy to understand, and physically tiring</p>
 <hr>
-<p>**Idea2: Doodle-based Path Locomotion**</p>
-<p>**Goal**</p>
+<p><strong>Idea2: Doodle-based Path Locomotion</strong></p>
+<p><strong>Goal</strong></p>
 <p>In many game tasks, users need to control their walking path with a high level of precision. This locomotion method aims to allow users to draw a walking path through doodling and restrict their movement within the drawn route, so that tasks requiring precise path control can be completed more easily.</p>
-<p>**How it works**</p>
+<p><strong>How it works</strong></p>
 <p>In the VR scene, the user uses a controller or hand gestures to draw a doodle path on the ground or in the space. This path is recognized by the system as a walkable route, and the user’s movement is constrained to this path. During locomotion, the user can only move along the drawn path and cannot deviate from it, which helps reduce wrong turns or deviation from the target.</p>
 <p>By using a “plan first, then move” mechanism, this approach reduces the need for precise real-time path control.</p>
-<img src="1lec02.png" width="400" />
-<p>**Evaluation**</p>
+<p><img src="1lec02.png" width="400" /><img loading="lazy" src="1lec02.png"><img alt="alt text" loading="lazy" src="./1lec02.png"></p>
+<p><strong>Evaluation</strong></p>
 <p>- Compare with free locomotion methods (such as joystick locomotion) by completing the same coin-collection task in the same map</p>
 <p>- Record the time required to complete the task</p>
 <p>- Evaluate the user’s confidence in path control and the ease of task completion</p>
 <p>- Subjective questionnaire: whether the method is easy to understand, helpful for task completion, and overly restrictive</p>
 <hr>
-<p>**Idea3: Hand-swing-based Locomotion**</p>
-<p>**Goal**</p>
+<p><strong>Idea3: Hand-swing-based Locomotion</strong></p>
+<p><strong>Goal</strong></p>
 <p>Similar to the first locomotion method, this approach enables movement in the VR world by reproducing the user’s hand swinging motion during walking.</p>
 <p>This locomotion method aims to use natural arm swinging to enhance bodily involvement in walking, while reducing the dependence on real-world physical movement, allowing users to achieve continuous movement in a small physical space.</p>
-<p>**How it works**</p>
+<p><strong>How it works</strong></p>
 <p>The system detects the swinging motion of both hands through the movement of the controllers, such as swing amplitude, frequency, and rhythm. When the user performs arm swinging motions similar to walking in the real world, the system maps these swinging signals to forward movement in the VR environment. The frequency and amplitude of the hand swings can affect the movement speed in VR, while the walking direction is determined by the user’s facing direction or head orientation.</p>
 <p>In this way, the user does not need to physically walk and can experience walking in the virtual world simply by swinging their hands.</p>
-<p>**Evaluation**</p>
+<p><strong>Evaluation</strong></p>
 <p>- Compare with joystick locomotion and footstep-based locomotion</p>
 <p>- Record the time required to complete the task or route</p>
 <p>- Evaluate presence, motion sickness, and upper-body fatigue</p>

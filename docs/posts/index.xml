@@ -9,7 +9,46 @@
     <lastBuildDate>Thu, 29 Jan 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Lab 3: Roll-a-Ball</title>
+      <title>Lab 1: VR Locomotion Blog</title>
+      <link>http://localhost:1313/posts/lab1-vr-locomotion-blog/</link>
+      <pubDate>Sun, 18 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/lab1-vr-locomotion-blog/</guid>
+      <description>&lt;p&gt;Authors: Peiwen Zhang, Zeyu Liang.&lt;/p&gt;
+&lt;p&gt;Université Paris-Saclay, HCI M1.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;1. Final Result&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Our group blog website is successfully online. It can be opened normally and the theme style is displayed correctly.&lt;/p&gt;
+&lt;p&gt;Website link:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://u8739516597-dotcom.github.io/&#34;&gt;https://u8739516597-dotcom.github.io/&lt;/a&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/lab1-vr-locomotion-blog/1fig01.png&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/lab1-vr-locomotion-blog/1fig02.png&#34;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;2. Our Solution&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;We use **Hugo** as a static site generator, use **PaperMod** as the theme, and publish the website by **GitHub Pages**.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;3. Project Structure and Publishing Method&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Our repository includes two main parts:&lt;/p&gt;
+&lt;p&gt;1) Hugo source files&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lab 2: Unity Setup Report</title>
+      <link>http://localhost:1313/posts/lab2-unity-setup/</link>
+      <pubDate>Tue, 20 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/lab2-unity-setup/</guid>
+      <description>&lt;p&gt;Unity environment setup on Windows: installed Unity 2020.3.49f1 (LTS), added required modules (IL2CPP, Android Build Support, OpenJDK), and verified by creating a 3D project.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;1. Goal&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The goal of this lab is to complete the Unity development environment setup and make sure Unity can run correctly.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;2. Environment Information&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;- Operating System: Windows&lt;/p&gt;
+&lt;p&gt;- Unity Editor Version:** 2020.3.49f1 (Unity 2020 LTS)&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/lab2-unity-setup/2fig01.png&#34;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;3. Install Unity 2020.3.49f1 and Modules&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;3.1 Install Unity via Download Archive&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lab 3: roll-a-ball</title>
       <link>http://localhost:1313/posts/lab3-roll-a-ball/</link>
       <pubDate>Thu, 22 Jan 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/lab3-roll-a-ball/</guid>
@@ -34,50 +73,20 @@
 &lt;p&gt;The system uses an MPU6050 sensor to detect the user’s footstep movements or walking actions, such as foot lifting, rhythm, and step frequency, instead of the user’s actual physical displacement. The user changes their facing direction in the real world to control the walking direction in VR. Then, by stepping in place or making small walking movements, the user’s rhythm or step frequency determines the walking speed in the virtual environment.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Lab 2: Unity Setup Report</title>
-      <link>http://localhost:1313/posts/lab2-unity-setup/</link>
-      <pubDate>Tue, 20 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/lab2-unity-setup/</guid>
-      <description>&lt;p&gt;Unity environment setup on Windows: installed Unity 2020.3.49f1 (LTS), added required modules (IL2CPP, Android Build Support, OpenJDK), and verified by creating a 3D project.&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;1. Goal&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;The goal of this lab is to complete the Unity development environment setup and make sure Unity can run correctly.&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;2. Environment Information&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;- Operating System: Windows&lt;/p&gt;
-&lt;p&gt;- Unity Editor Version:** 2020.3.49f1 (Unity 2020 LTS)&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/lab2-unity-setup/2fig01.png&#34;&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;3. Install Unity 2020.3.49f1 and Modules&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;3.1 Install Unity via Download Archive&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Lab 1: VR Locomotion Blog</title>
-      <link>http://localhost:1313/posts/lab1-vr-locomotion-blog/</link>
-      <pubDate>Sun, 18 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/lab1-vr-locomotion-blog/</guid>
-      <description>&lt;p&gt;Authors: Peiwen Zhang, Zeyu Liang.&lt;/p&gt;
-&lt;p&gt;Université Paris-Saclay, HCI M1.&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;1. Final Result&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Our group blog website is successfully online. It can be opened normally and the theme style is displayed correctly.&lt;/p&gt;
-&lt;p&gt;Website link:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://u8739516597-dotcom.github.io/&#34;&gt;https://u8739516597-dotcom.github.io/&lt;/a&gt;
-&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/lab1-vr-locomotion-blog/1fig01.png&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/lab1-vr-locomotion-blog/1fig02.png&#34;&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;2. Our Solution&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;We use **Hugo** as a static site generator, use **PaperMod** as the theme, and publish the website by **GitHub Pages**.&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;3. Project Structure and Publishing Method&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Our repository includes two main parts:&lt;/p&gt;
-&lt;p&gt;1) Hugo source files&lt;/p&gt;</description>
-    </item>
-    <item>
       <title></title>
-      <link>http://localhost:1313/posts/lab3-r-o-b/</link>
+      <link>http://localhost:1313/posts/description/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/lab3-r-o-b/</guid>
-      <description></description>
+      <guid>http://localhost:1313/posts/description/</guid>
+      <description>&lt;p&gt;title: &amp;ldquo;Description&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;date: 2026-01-22&lt;/p&gt;
+&lt;p&gt;weight: 1&lt;/p&gt;
+&lt;p&gt;summary: &amp;ldquo;Step-by-step notes for the Roll-a-Ball tutorial, including problems and fixes.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;tags:&lt;/p&gt;
+&lt;p&gt;  - Unity&lt;/p&gt;
+&lt;p&gt;  - Lab&lt;/p&gt;
+&lt;p&gt;  - Roll-a-Ball&lt;/p&gt;
+&lt;p&gt;  - Mixed Reality&lt;/p&gt;
+&lt;p&gt;draft: false&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -1,6 +1,7 @@
 ﻿---
 title: "Lab 2: Unity Setup Report"
 date: 2026-01-20
+weight: 3
 tags:
   - Unity
   - Lab

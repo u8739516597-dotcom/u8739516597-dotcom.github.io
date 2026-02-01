@@ -4,7 +4,7 @@ title: "Lab 4: Unity Roll-a-Ball in VR"
 
 date: 2026-01-26
 
-weight: 4
+weight: 5
 
 summary: "Converted Roll-a-Ball to VR: Android build setup, Meta SDK import, XR settings, scene setup, direct selection + raycasting. Documented issues and what I tried."
 
