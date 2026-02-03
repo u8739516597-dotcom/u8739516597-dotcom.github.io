@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto" data-theme="auto">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="noindex, nofollow">
+<meta name="robots" content="index, follow">
 <title>Lab 3: roll-a-ball | VR Locomotion Blog</title>
 <meta name="keywords" content="Unity, Lab, Roll-a-Ball, Mixed Reality">
 <meta name="description" content="Step-by-step notes for the Roll-a-Ball tutorial, including problems and fixes.">
 <meta name="author" content="">
-<link rel="canonical" href="http://localhost:1313/posts/lab3-roll-a-ball/">
+<link rel="canonical" href="https://u8739516597-dotcom.github.io/posts/lab3-roll-a-ball/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.css" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://localhost:1313/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
-<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
-<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<link rel="icon" href="https://u8739516597-dotcom.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://u8739516597-dotcom.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://u8739516597-dotcom.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://u8739516597-dotcom.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://u8739516597-dotcom.github.io/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/lab3-roll-a-ball/">
+<link rel="alternate" hreflang="en" href="https://u8739516597-dotcom.github.io/posts/lab3-roll-a-ball/">
 <noscript>
     <style>
         #theme-toggle,
@@ -70,13 +70,79 @@
         document.querySelector("html").dataset.theme = 'light';
     }
 
+</script><meta property="og:url" content="https://u8739516597-dotcom.github.io/posts/lab3-roll-a-ball/">
+  <meta property="og:site_name" content="VR Locomotion Blog">
+  <meta property="og:title" content="Lab 3: roll-a-ball">
+  <meta property="og:description" content="Step-by-step notes for the Roll-a-Ball tutorial, including problems and fixes.">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-01-22T00:00:00+00:00">
+    <meta property="article:modified_time" content="2026-01-22T00:00:00+00:00">
+    <meta property="article:tag" content="Unity">
+    <meta property="article:tag" content="Lab">
+    <meta property="article:tag" content="Roll-a-Ball">
+    <meta property="article:tag" content="Mixed Reality">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Lab 3: roll-a-ball">
+<meta name="twitter:description" content="Step-by-step notes for the Roll-a-Ball tutorial, including problems and fixes.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://u8739516597-dotcom.github.io/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Lab 3: roll-a-ball",
+      "item": "https://u8739516597-dotcom.github.io/posts/lab3-roll-a-ball/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Lab 3: roll-a-ball",
+  "name": "Lab 3: roll-a-ball",
+  "description": "Step-by-step notes for the Roll-a-Ball tutorial, including problems and fixes.",
+  "keywords": [
+    "Unity", "Lab", "Roll-a-Ball", "Mixed Reality"
+  ],
+  "articleBody": "Authors: Peiwen Zhang, Zeyu Liang.\nUniversité Paris-Saclay, HCI M1.\nStep 1: Setting up the game\n1.1 Create a new project\n1.2 Create a new scene called Minigame and save it\n|\n1.3 Create a Plane called Ground and reset its position\nFrom this step, I learned to use the F key to focus on the selected object.\n1.4 Change the scale of the Ground object\nWay 1: Use the R key to switch to the Scale tool, then drag the handles to change the scale.\nWay 2: Change the scale values directly in the Transform component.\n1.5 Create a Sphere called Player and place it on top of the plane\n1.6 Change the color of the light\n1.7 Create two materials for objects\n1.8 Adjust the direction of the light\nStep 2: Moving the player\n2.1 Add a physics component on Player\n2.2 Add Player Input component on Player\nProblem: I can’t find the Player Input in Unity.\nSolution: Install the Input System.\n|\n2.3 Create and write the script\nProblem: The ball couldn’t move. Solution: I wrote the wrong function.\nStep 3: Moving the camera\n3.1 Set the camera position and make it follow the player’s movement\n3.2 Create and write a script for the camera to follow the player\nStep 4: Setting up the play area\nCreate walls and give them materials.\nStep 5: Creating Collectibles\n5.1 Create a pickup object and give it a material\n5.2 Write a script to rotate the pickup object\n5.3 Turn the pickup into a prefab and duplicate more\nQuestion: Are there some tools like an Array Modifier in Blender to make this step easier?\nStep 6: Detecting collisions with collectibles\n6.1 Change the PlayerController script (add a new function called OnTriggerEnter)\n6.2 Add tag for the prefab\n6.3 Change the Collider of the prefab\nStep 7: Displaying score and text\n7.1 Change the PlayerController script (create a counter)\n7.2 Create a text and change the anchor mode\nProblem: I can’t change the position of the text.\nSolution: I used the wrong key (shift + option).\n7.3 Set the win condition\nStep 8: Adding AI navigation\n8.1 Create enemy body and add NavMeshSurface component for it\nProblem: I can’t find it.\nSolution: After installing the package, it worked.\n8.2 Use a script to chase the player\n8.3 Complicate the map and add obstacles\n8.4 Set the win and lose conditions\nBonus: IP Paris flavor\nI’m not 100% sure if I fully understood what “IP Paris flavor” is supposed to mean, but I tried to add some Paris-themed elements into my game anyway.\nChange the ground texture Replace the pickups with Paris landmarks Problem:I downloaded a .glb model from Sketchfab, but Unity couldn’t open it properly (nothing showed up).\nSolution: I imported the .glb file into Blender, then exported it as .fbx, and that worked fine in Unity.\nProblem: Since I was using prefabs, once I changed the mesh, it applied to all pickups — but I only wanted to modify some of them.\nSolution:I created a prefab variant so I could make small changes (like changing the model) while keeping the same logic.\nRewrite the movement script The old rotation script didn’t really work with the new models, so I replaced it with a simple floating animation.\nNow the landmarks float up and down slowly, making them feel more alive.\n",
+  "wordCount" : "558",
+  "inLanguage": "en",
+  "datePublished": "2026-01-22T00:00:00Z",
+  "dateModified": "2026-01-22T00:00:00Z",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://u8739516597-dotcom.github.io/posts/lab3-roll-a-ball/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "VR Locomotion Blog",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://u8739516597-dotcom.github.io/favicon.ico"
+    }
+  }
+}
 </script>
 </head>
 <body id="top">
     <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="VR Locomotion Blog (Alt + H)">VR Locomotion Blog</a>
+            <a href="https://u8739516597-dotcom.github.io/" accesskey="h" title="VR Locomotion Blog (Alt + H)">VR Locomotion Blog</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -231,17 +297,17 @@
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="http://localhost:1313/tags/unity/">Unity</a></li>
-      <li><a href="http://localhost:1313/tags/lab/">Lab</a></li>
-      <li><a href="http://localhost:1313/tags/roll-a-ball/">Roll-a-Ball</a></li>
-      <li><a href="http://localhost:1313/tags/mixed-reality/">Mixed Reality</a></li>
+      <li><a href="https://u8739516597-dotcom.github.io/tags/unity/">Unity</a></li>
+      <li><a href="https://u8739516597-dotcom.github.io/tags/lab/">Lab</a></li>
+      <li><a href="https://u8739516597-dotcom.github.io/tags/roll-a-ball/">Roll-a-Ball</a></li>
+      <li><a href="https://u8739516597-dotcom.github.io/tags/mixed-reality/">Mixed Reality</a></li>
     </ul>
   </footer>
 </article>
     </main>
     
 <footer class="footer">
-        <span>&copy; 2026 <a href="http://localhost:1313/">VR Locomotion Blog</a></span> · 
+        <span>&copy; 2026 <a href="https://u8739516597-dotcom.github.io/">VR Locomotion Blog</a></span> · 
 
     <span>
         Powered by

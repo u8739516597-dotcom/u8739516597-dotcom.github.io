@@ -13,7 +13,7 @@ publishDir = "docs"
 [params]
   mainSections = ["posts"]
   defaultContentLanguage = "en"
-  profileMode = { enabled = false }
+  profileMode = { enabled = false }  # 修改部分，将 profileMode 作为字典形式
 
 [params.assets]
   disableFingerprinting = true
