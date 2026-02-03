@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/posts/description/</loc>
+    <lastmod>2026-01-29T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/posts/lab1-vr-locomotion-blog/</loc>
     <lastmod>2026-01-18T00:00:00+00:00</lastmod>
   </url><url>
@@ -40,8 +43,6 @@
   </url><url>
     <loc>http://localhost:1313/tags/roll-a-ball/</loc>
     <lastmod>2026-01-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/description/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url>
