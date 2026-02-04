@@ -10,8 +10,7 @@ draft: false
 ---
 
 
-Authors: Peiwen Zhang, Zeyu Liang.
-
+Authors: Peiwen Zhang
 
 Université Paris-Saclay, HCI M1.
 
@@ -20,7 +19,7 @@ Université Paris-Saclay, HCI M1.
 
  **1. Final Result**
 
-Our group blog website is successfully online. It can be opened normally and the theme style is displayed correctly.
+My group blog website is successfully online. It can be opened normally and the theme style is displayed correctly.
 
 
 
@@ -36,7 +35,7 @@ https://u8739516597-dotcom.github.io/
 
 **2. Our Solution**
 
-We use \*\*Hugo\*\* as a static site generator, use \*\*PaperMod\*\* as the theme, and publish the website by \*\*GitHub Pages\*\*.
+I use \*\*Hugo\*\* as a static site generator, use \*\*PaperMod\*\* as the theme, and publish the website by \*\*GitHub Pages\*\*.
 
 
 
@@ -46,7 +45,7 @@ We use \*\*Hugo\*\* as a static site generator, use \*\*PaperMod\*\* as the them
 
  **3. Project Structure and Publishing Method**
 
-Our repository includes two main parts:
+My repository includes two main parts:
 
 
 
@@ -64,7 +63,7 @@ The generated static website is placed in the `docs` folder. GitHub Pages publis
 
 Our publishing workflow is:  
 
-After we update content or configuration locally, we generate the website into `docs`, then commit and push to GitHub. After that, the online website is updated.
+After I update content or configuration locally, I generate the website into `docs`, then commit and push to GitHub. After that, the online website is updated.
 ![](1fig03.png)![](1fig04.png)
 
 
@@ -80,7 +79,7 @@ After we update content or configuration locally, we generate the website into `
 
 **Problem:**
 
-When pushing to GitHub, we got a 403 or permission denied error, so we could not push successfully.
+When pushing to GitHub, I got a 403 or permission denied error, so I could not push successfully.
 
 
 
@@ -92,7 +91,7 @@ On Windows, Git may still use an old GitHub account credential.
 
 **Solution:**
 
-We opened \*\*Windows Credential Manager\*\*, removed the old GitHub credentials, logged in again, and then pushed successfully.
+I opened \*\*Windows Credential Manager\*\*, removed the old GitHub credentials, logged in again, and then pushed successfully.
 
 ![](1fig05.png)
 
@@ -116,7 +115,7 @@ PaperMod uses fingerprinting and SRI checks for assets. In the GitHub Pages envi
 
 **Solution:**
 
-We disabled the fingerprinting-related options in the Hugo configuration file, regenerated the `docs` folder, and pushed again. After that, the theme worked correctly.
+I disabled the fingerprinting-related options in the Hugo configuration file, regenerated the `docs` folder, and pushed again. After that, the theme worked correctly.
 
 ![](1fig06.png)![](1fig07.png)
 
@@ -138,7 +137,7 @@ Current status:
 
 Next plan: 
 
-We will continue using this blog to publish future lab work, including Unity experiments, screenshots, and reflections.
+I will continue using this blog to publish future lab work, including Unity experiments, screenshots, and reflections.
 
 ![](1fig08.png)
 

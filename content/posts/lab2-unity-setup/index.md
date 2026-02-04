@@ -58,7 +58,7 @@ The goal of this lab is to complete the Unity development environment setup and 
 
 **3.2 Select Required Modules**
 
-When installing Unity 2020.3.49f1, we selected the following modules:
+When installing Unity 2020.3.49f1, I selected the following modules:
 
 
 
@@ -102,13 +102,13 @@ These modules are required for building projects on different platforms.
 
  4.2 Unity Editor Overview
 
-After the project is created, we verified that Unity runs correctly:
+After the project is created, I verified that Unity runs correctly:
 
 
 
-\- We can open the project successfully  
+\- I can open the project successfully  
 
-\- We identified the main panels:
+\- I identified the main panels:
 
   - Hierarchy  
 
@@ -120,7 +120,7 @@ After the project is created, we verified that Unity runs correctly:
 
   - Console  
 
-\- We entered Play Mode and the scene ran normally
+\- I entered Play Mode and the scene ran normally
 ![](2fig05.png)
 
 

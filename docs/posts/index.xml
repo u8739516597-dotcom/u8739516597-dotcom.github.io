@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on VR Locomotion Blog</title>
-    <link>https://u8739516597-dotcom.github.io/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on VR Locomotion Blog</description>
     <generator>Hugo -- 0.154.5</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 29 Jan 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://u8739516597-dotcom.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Description</title>
-      <link>https://u8739516597-dotcom.github.io/posts/description/</link>
+      <link>http://localhost:1313/posts/description/</link>
       <pubDate>Thu, 29 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://u8739516597-dotcom.github.io/posts/description/</guid>
+      <guid>http://localhost:1313/posts/description/</guid>
       <description></description>
     </item>
     <item>
       <title>Lab 1: VR Locomotion Blog</title>
-      <link>https://u8739516597-dotcom.github.io/posts/lab1-vr-locomotion-blog/</link>
+      <link>http://localhost:1313/posts/lab1-vr-locomotion-blog/</link>
       <pubDate>Sun, 18 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://u8739516597-dotcom.github.io/posts/lab1-vr-locomotion-blog/</guid>
-      <description>&lt;p&gt;Authors: Peiwen Zhang, Zeyu Liang.&lt;/p&gt;
+      <guid>http://localhost:1313/posts/lab1-vr-locomotion-blog/</guid>
+      <description>&lt;p&gt;Authors: Peiwen Zhang&lt;/p&gt;
 &lt;p&gt;Université Paris-Saclay, HCI M1.&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;strong&gt;1. Final Result&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Our group blog website is successfully online. It can be opened normally and the theme style is displayed correctly.&lt;/p&gt;
+&lt;p&gt;My group blog website is successfully online. It can be opened normally and the theme style is displayed correctly.&lt;/p&gt;
 &lt;p&gt;Website link:&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://u8739516597-dotcom.github.io/&#34;&gt;https://u8739516597-dotcom.github.io/&lt;/a&gt;
-&lt;img loading=&#34;lazy&#34; src=&#34;https://u8739516597-dotcom.github.io/posts/lab1-vr-locomotion-blog/1fig01.png&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://u8739516597-dotcom.github.io/posts/lab1-vr-locomotion-blog/1fig02.png&#34;&gt;&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/lab1-vr-locomotion-blog/1fig01.png&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/lab1-vr-locomotion-blog/1fig02.png&#34;&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;strong&gt;2. Our Solution&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;We use **Hugo** as a static site generator, use **PaperMod** as the theme, and publish the website by **GitHub Pages**.&lt;/p&gt;
+&lt;p&gt;I use **Hugo** as a static site generator, use **PaperMod** as the theme, and publish the website by **GitHub Pages**.&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;strong&gt;3. Project Structure and Publishing Method&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Our repository includes two main parts:&lt;/p&gt;
+&lt;p&gt;My repository includes two main parts:&lt;/p&gt;
 &lt;p&gt;1) Hugo source files&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lab 2: Unity Setup Report</title>
-      <link>https://u8739516597-dotcom.github.io/posts/lab2-unity-setup/</link>
+      <link>http://localhost:1313/posts/lab2-unity-setup/</link>
       <pubDate>Tue, 20 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://u8739516597-dotcom.github.io/posts/lab2-unity-setup/</guid>
+      <guid>http://localhost:1313/posts/lab2-unity-setup/</guid>
       <description>&lt;p&gt;Unity environment setup on Windows: installed Unity 2020.3.49f1 (LTS), added required modules (IL2CPP, Android Build Support, OpenJDK), and verified by creating a 3D project.&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;strong&gt;1. Goal&lt;/strong&gt;&lt;/p&gt;
@@ -49,30 +49,30 @@
 &lt;p&gt;&lt;strong&gt;2. Environment Information&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;- Operating System: Windows&lt;/p&gt;
 &lt;p&gt;- Unity Editor Version:** 2020.3.49f1 (Unity 2020 LTS)&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://u8739516597-dotcom.github.io/posts/lab2-unity-setup/2fig01.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/lab2-unity-setup/2fig01.png&#34;&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;strong&gt;3. Install Unity 2020.3.49f1 and Modules&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;3.1 Install Unity via Download Archive&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lab 3: roll-a-ball</title>
-      <link>https://u8739516597-dotcom.github.io/posts/lab3-roll-a-ball/</link>
+      <link>http://localhost:1313/posts/lab3-roll-a-ball/</link>
       <pubDate>Thu, 22 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://u8739516597-dotcom.github.io/posts/lab3-roll-a-ball/</guid>
+      <guid>http://localhost:1313/posts/lab3-roll-a-ball/</guid>
       <description>Step-by-step notes for the Roll-a-Ball tutorial, including problems and fixes.</description>
     </item>
     <item>
       <title>Lab 4: Unity Roll-a-Ball in VR</title>
-      <link>https://u8739516597-dotcom.github.io/posts/lab4-roll-a-ball-vr/</link>
+      <link>http://localhost:1313/posts/lab4-roll-a-ball-vr/</link>
       <pubDate>Mon, 26 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://u8739516597-dotcom.github.io/posts/lab4-roll-a-ball-vr/</guid>
+      <guid>http://localhost:1313/posts/lab4-roll-a-ball-vr/</guid>
       <description>Converted Roll-a-Ball to VR: Android build setup, Meta SDK import, XR settings, scene setup, direct selection + raycasting. Documented issues and what I tried.</description>
     </item>
     <item>
       <title>Lecture 1: VR Locomotion Ideas</title>
-      <link>https://u8739516597-dotcom.github.io/posts/lecture1-vr-locomotion-ideas/</link>
+      <link>http://localhost:1313/posts/lecture1-vr-locomotion-ideas/</link>
       <pubDate>Thu, 29 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://u8739516597-dotcom.github.io/posts/lecture1-vr-locomotion-ideas/</guid>
+      <guid>http://localhost:1313/posts/lecture1-vr-locomotion-ideas/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Idea1: Footstep-based Locomotion&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Goal&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;The goal of this approach is to keep the feeling of walking while reducing the amount of physical space needed in the real world, so that continuous walking in VR can be supported in a small physical space.&lt;/p&gt;
