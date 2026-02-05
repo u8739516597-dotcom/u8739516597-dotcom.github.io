@@ -11,101 +11,52 @@ draft: false
 ---
 
 
-**Idea1: Footstep-based Locomotion**
-
-**Goal**
-
-The goal of this approach is to keep the feeling of walking while reducing the amount of physical space needed in the real world, so that continuous walking in VR can be supported in a small physical space.
-
-
-**How it works**
-
-The system uses an MPU6050 sensor to detect the user’s footstep movements or walking actions, such as foot lifting, rhythm, and step frequency, instead of the user’s actual physical displacement. The user changes their facing direction in the real world to control the walking direction in VR. Then, by stepping in place or making small walking movements, the user’s rhythm or step frequency determines the walking speed in the virtual environment.
-
-In this way, the bodily feeling of “walking” is preserved, while the user does not need to physically walk a long distance.
-
-<img src="1lec01.png" width="400" />
-
-
-
-**Evaluation**
-
-\- Compare with joystick-based locomotion and real walking locomotion
-
-\- Record the time required to complete the route
-
-\- Evaluate presence, motion sickness, and user comfort
-
-\- Use a subjective questionnaire to ask whether the walking feels natural, easy to understand, and physically tiring
-
-
-
----
-
-
-
-**Idea2: Doodle-based Path Locomotion**
-
-**Goal**
-
-In many game tasks, users need to control their walking path with a high level of precision. This locomotion method aims to allow users to draw a walking path through doodling and restrict their movement within the drawn route, so that tasks requiring precise path control can be completed more easily.
-
-
-
-**How it works**
-
-In the VR scene, the user uses a controller or hand gestures to draw a doodle path on the ground or in the space. This path is recognized by the system as a walkable route, and the user’s movement is constrained to this path. During locomotion, the user can only move along the drawn path and cannot deviate from it, which helps reduce wrong turns or deviation from the target. 
-
-By using a “plan first, then move” mechanism, this approach reduces the need for precise real-time path control.
-
-<img src="1lec02.png" width="400" />![](1lec02.png)![alt text](./1lec02.png)
 
 
 
 
-**Evaluation**
+In this assignment, I explored three different VR movement technologies, understanding their goals, principles, and evaluation methods.
 
-\- Compare with free locomotion methods (such as joystick locomotion) by completing the same coin-collection task in the same map
+### Concept 1: Arm Swing "Power Glide"
 
-\- Record the time required to complete the task
+* **Goal:** Enhance immersion and fun, balancing exercise intensity and comfort.
+* **How it works:**
 
-\- Evaluate the user’s confidence in path control and the ease of task completion
+  * **Interaction metaphor:** Mimics real-world walking by generating movement through arm swinging.
+  * **System Logic:** Implemented in Unity. It detects the speed of the left and right controllers (swing power) and uses the trigger buttons and a threshold to determine movement. Speed is controlled using a curve to fit the parkour environment.
+* **Evaluation:**
 
-\- Subjective questionnaire: whether the method is easy to understand, helpful for task completion, and overly restrictive
+  * Compare with traditional joystick movement.
+  * Metrics: Record time to complete the route, accuracy of collecting coins, and fun rating (1-10).
+<img src="1lec01.png" width="300" />
+### Concept 2: Nod-to-Zoom Teleportation
 
+* **Goal:** Provide a stable, low-motion sickness risk movement option for users with limited mobility.
+* **How it works:**
 
+  * **Interaction metaphor:** Uses gaze and physical nods as confirmation.
+  * **System Logic:** Tracks the user’s eye movement via the head-mounted display (HMD) to detect slight "nodding" (up/down movement) which triggers instant teleportation.
+* **Evaluation:**
 
----
+  * Metrics: Use the Simulator Sickness Questionnaire (SSQ) to evaluate the effect on motion sickness (1-10).
+<img src="1lec02.png" width="600" />
+### Concept 3: Elastic Slingshot / Grappling Hook
 
+* **Goal:** Achieve high vertical maneuverability and entertainment immersion. The goal is to allow users to quickly and precisely reach floating platforms in a parkour-like environment.
+* **How it works:**
 
+  1. **Point and Lock:** Users aim the controller at a target (such as a platform) and press the trigger to launch an energy beam (raycast) to hook the target.
+  2. **Physical Stretch:** A visible elastic line forms between the controller and the target.
+  3. **Power Trigger:** Users pull the controller towards themselves, and the system calculates a forward force based on the controller’s displacement and speed, launching the player towards the target.
+* **Evaluation:**
 
-**Idea3: Hand-swing-based Locomotion**
+  * **Comparison:** Compare with traditional "teleportation" technology.
+  * **Metrics:**
 
-**Goal**
+    1. Direction accuracy.
+    2. Immersion rating: A survey to assess the sense of being immersed in the environment (1-10).
 
-Similar to the first locomotion method, this approach enables movement in the VR world by reproducing the user’s hand swinging motion during walking.
-
-This locomotion method aims to use natural arm swinging to enhance bodily involvement in walking, while reducing the dependence on real-world physical movement, allowing users to achieve continuous movement in a small physical space.
-
-
-
-**How it works**
-
-The system detects the swinging motion of both hands through the movement of the controllers, such as swing amplitude, frequency, and rhythm. When the user performs arm swinging motions similar to walking in the real world, the system maps these swinging signals to forward movement in the VR environment. The frequency and amplitude of the hand swings can affect the movement speed in VR, while the walking direction is determined by the user’s facing direction or head orientation.
-
-In this way, the user does not need to physically walk and can experience walking in the virtual world simply by swinging their hands.
-
-
-
-**Evaluation**
-
-\- Compare with joystick locomotion and footstep-based locomotion
-
-\- Record the time required to complete the task or route
-
-\- Evaluate presence, motion sickness, and upper-body fatigue
-
-\- Subjective questionnaire: whether the motion feels natural, easy to learn, and physically tiring
-
+<img src="1lec03.png" width="400" />
+<img src="1lec04.png" width="300" />
 
 
