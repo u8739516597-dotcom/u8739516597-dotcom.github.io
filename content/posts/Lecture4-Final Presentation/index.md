@@ -1,15 +1,17 @@
 ---
 title: "Lecture 4: Final Presentation"
-date: "2026-02-08"
+date: "2026-02-06"
 weight: 9
 draft: false
 ---
 
 
-#### 1. **Presentation Slides link**
+**1. Presentation Slides link**
 
+--- 
 
-#### 3. **2.APK Download**
+**2.  APK Download**
+
 
 
 

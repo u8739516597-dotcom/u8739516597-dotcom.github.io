@@ -6,7 +6,7 @@
     <description>Recent content on VR Locomotion Blog</description>
     <generator>Hugo -- 0.154.5</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 03 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Feb 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Description</title>
@@ -128,6 +128,32 @@
 &lt;h4 id=&#34;2-raw-data&#34;&gt;2. &lt;strong&gt;Raw Data&lt;/strong&gt;&lt;/h4&gt;
 &lt;p&gt;Here’s the detailed performance of the three participants:
 &lt;img src=&#34;3lec01.png&#34; width=&#34;1000&#34; /&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lab 5:Locomotion technique Implementation</title>
+      <link>http://localhost:1313/posts/lab5/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/lab5/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Hybrid Biometric Locomotion: Arm-Swing &amp;amp; Avian Flight&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&#34;1-interaction--concept&#34;&gt;&lt;strong&gt;1. Interaction &amp;amp; Concept&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;In this experiment, I designed a system called &amp;ldquo;Hybrid Dynamics&amp;rdquo; to provide an immersive and comfortable VR experience using natural body movements.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Walk Mode&lt;/strong&gt;: &amp;ldquo;Walking&amp;rdquo;
+Players use the Index Trigger and alternate swinging their arms up and down to move. The system mimics human walking, from slow walking to running.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Flight Mode&lt;/strong&gt;: &amp;ldquo;Avian Flight&amp;rdquo;
+To address vertical challenges (like high coins), I added a &amp;ldquo;bird flight&amp;rdquo; metaphor. Players can spread their arms and look up to seamlessly transition from walking to flying.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 4: Final Presentation</title>
+      <link>http://localhost:1313/posts/lecture4-final-presentation/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/lecture4-final-presentation/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;1. Presentation Slides link&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;2.  APK Download&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

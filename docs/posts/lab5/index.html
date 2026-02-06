@@ -5,13 +5,21 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
-<title>Lecture 4: Final Presentation | VR Locomotion Blog</title>
+<title>Lab 5:Locomotion technique Implementation | VR Locomotion Blog</title>
 <meta name="keywords" content="">
-<meta name="description" content="1. Presentation Slides link
+<meta name="description" content="Hybrid Biometric Locomotion: Arm-Swing &amp; Avian Flight
+1. Interaction &amp; Concept
+In this experiment, I designed a system called &ldquo;Hybrid Dynamics&rdquo; to provide an immersive and comfortable VR experience using natural body movements.
 
-2.  APK Download">
+
+Walk Mode: &ldquo;Walking&rdquo;
+Players use the Index Trigger and alternate swinging their arms up and down to move. The system mimics human walking, from slow walking to running.
+
+
+Flight Mode: &ldquo;Avian Flight&rdquo;
+To address vertical challenges (like high coins), I added a &ldquo;bird flight&rdquo; metaphor. Players can spread their arms and look up to seamlessly transition from walking to flying.">
 <meta name="author" content="">
-<link rel="canonical" href="http://localhost:1313/posts/lecture4-final-presentation/">
+<link rel="canonical" href="http://localhost:1313/posts/lab5/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.css" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
@@ -20,7 +28,7 @@
 <link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/lecture4-final-presentation/">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/lab5/">
 <noscript>
     <style>
         #theme-toggle,
@@ -112,15 +120,99 @@
   <header class="post-header">
     
     <h1 class="post-title entry-hint-parent">
-      Lecture 4: Final Presentation
+      Lab 5:Locomotion technique Implementation
     </h1>
     <div class="post-meta"><span title='2026-02-06 00:00:00 +0000 UTC'>February 6, 2026</span>
 
 </div>
   </header> 
-  <div class="post-content"><p><strong>1. Presentation Slides link</strong></p>
-<hr>
-<p><strong>2.  APK Download</strong></p>
+  <div class="post-content"><p><strong>Hybrid Biometric Locomotion: Arm-Swing &amp; Avian Flight</strong></p>
+<h4 id="1-interaction--concept"><strong>1. Interaction &amp; Concept</strong><a hidden class="anchor" aria-hidden="true" href="#1-interaction--concept">#</a></h4>
+<p>In this experiment, I designed a system called &ldquo;Hybrid Dynamics&rdquo; to provide an immersive and comfortable VR experience using natural body movements.</p>
+<ul>
+<li>
+<p><strong>Walk Mode</strong>: &ldquo;Walking&rdquo;
+Players use the Index Trigger and alternate swinging their arms up and down to move. The system mimics human walking, from slow walking to running.</p>
+</li>
+<li>
+<p><strong>Flight Mode</strong>: &ldquo;Avian Flight&rdquo;
+To address vertical challenges (like high coins), I added a &ldquo;bird flight&rdquo; metaphor. Players can spread their arms and look up to seamlessly transition from walking to flying.</p>
+</li>
+</ul>
+<p><strong>Goal</strong>: To use body movement and visual feedback to improve immersion and reduce motion sickness.
+<img src="5lab01.png" width="800" /></p>
+<h4 id="2-technical-implementation"><strong>2. Technical Implementation</strong><a hidden class="anchor" aria-hidden="true" href="#2-technical-implementation">#</a></h4>
+<p>The core logic of my code converts physical movements into 3D space vectors.</p>
+<ul>
+<li>
+<p><strong>A. Core Logic: Gaze-directed Steering</strong>
+I didn&rsquo;t write complex mode-switching code. Instead, I used a mathematical approach that tracks the HMD’s forward vector.
+<img src="5lab02.png" width="800" /></p>
+<ul>
+<li>
+<p><strong>Explanation</strong>:</p>
+<ul>
+<li>When players look straight ahead, the movement is walking.</li>
+<li>When they look up and swing their arms, they fly towards their target.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>B. Parameter Tuning</strong>
+To balance feel and comfort, I set fine-tuned dynamic parameters:</p>
+<ul>
+<li><code>speedCurveExponent = 2.0f</code>: A quadratic curve, filtering out minor controller shakes, making only intentional swings noticeable.</li>
+<li><code>damping = 5.0f</code>: Simulates inertia to prevent sudden stop effects, avoiding visual tearing.
+<img src="5lab03.png" width="800" /></li>
+</ul>
+</li>
+</ul>
+<h4 id="3-process--problems"><strong>3. Process &amp; Problems</strong><a hidden class="anchor" aria-hidden="true" href="#3-process--problems">#</a></h4>
+<p><strong>Challenges</strong>:</p>
+<ol>
+<li><strong>Script Conflicts</strong>:
+Unity projects come with default movement scripts that interfered with my custom Arm-Swing logic.
+<strong>Solution</strong>: I created an automatic tool to disable conflicting components during startup.
+<img src="5lab04.png" width="800" /></li>
+<li><strong>From &ldquo;Coordinate Displacement&rdquo; to &ldquo;Speed Mapping&rdquo;</strong>:
+Initially, I tried using positional changes to move the player but it felt unnatural.
+<strong>Solution</strong>: I switched to using the velocity of the controller, making movement feel smoother and more realistic.
+<img src="5lab05.png" width="800" /></li>
+<li><strong>Motion Sickness from High-Speed Movement</strong>:
+High-speed arm swings caused a &ldquo;teleporting&rdquo; visual effect, leading to motion sickness.
+<strong>Solution</strong>: I introduced a speed curve and a speed cap to smooth the transition between low and high speeds.
+<img src="5lab06.png" width="800" />
+<img src="5lab07.png" width="800" /></li>
+</ol>
+<h4 id="4-lessons-learned"><strong>4. Lessons Learned</strong><a hidden class="anchor" aria-hidden="true" href="#4-lessons-learned">#</a></h4>
+<ol>
+<li>
+<p><strong>Comfort First</strong>:
+It’s better to limit maximum speed than to allow players to experience uncomfortable acceleration.</p>
+</li>
+<li>
+<p><strong>Automation is Key</strong>:
+Automated scripts like FixBannerPhysics save a lot of debugging time.</p>
+</li>
+<li>
+<p><strong>Focus on Gaze Direction</strong>:
+When designing flight modes, using &ldquo;head orientation&rdquo; for movement is more natural and reduces directional errors caused by hand movements.</p>
+</li>
+</ol>
+<h4 id="5-bonus-paris-saclay-flavor"><strong>5. Bonus: Paris-Saclay Flavor</strong><a hidden class="anchor" aria-hidden="true" href="#5-bonus-paris-saclay-flavor">#</a></h4>
+<p>As a student at Université Paris-Saclay, I incorporated the school’s color (purple) into the project:
+<img src="5lab08.png" width="300" /></p>
+<ul>
+<li>The <strong>Final Banner</strong> was changed to purple.
+<img src="5lab09.png" width="400" /></li>
+<li>The last three coins were given a glowing purple material effect.
+<img src="5lab10.png" width="400" /></li>
+</ul>
+<h4 id="6-code--github"><strong>6. Code &amp; GitHub</strong><a hidden class="anchor" aria-hidden="true" href="#6-code--github">#</a></h4>
+<p>GitHub repository link: [link]</p>
+<h4 id="7-demo-video"><strong>7. Demo Video</strong><a hidden class="anchor" aria-hidden="true" href="#7-demo-video">#</a></h4>
+<p>Video link: [link]</p>
 
 
   </div>
