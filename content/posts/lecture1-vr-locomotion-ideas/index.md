@@ -29,6 +29,8 @@ In this assignment, I explored three different VR movement technologies, underst
   * Compare with traditional joystick movement.
   * Metrics: Record time to complete the route, accuracy of collecting coins, and fun rating (1-10).
 <img src="1lec01.png" width="300" />
+
+
 ### Concept 2: Nod-to-Zoom Teleportation
 
 * **Goal:** Provide a stable, low-motion sickness risk movement option for users with limited mobility.
@@ -39,7 +41,12 @@ In this assignment, I explored three different VR movement technologies, underst
 * **Evaluation:**
 
   * Metrics: Use the Simulator Sickness Questionnaire (SSQ) to evaluate the effect on motion sickness (1-10).
+
+https://www.youtube.com/watch?v=ulcNfCbkX4s
 <img src="1lec02.png" width="600" />
+
+
+
 ### Concept 3: Elastic Slingshot / Grappling Hook
 
 * **Goal:** Achieve high vertical maneuverability and entertainment immersion. The goal is to allow users to quickly and precisely reach floating platforms in a parkour-like environment.
@@ -55,7 +62,7 @@ In this assignment, I explored three different VR movement technologies, underst
 
     1. Direction accuracy.
     2. Immersion rating: A survey to assess the sense of being immersed in the environment (1-10).
-
+https://www.youtube.com/watch?v=m7zhF1iv-5w
 <img src="1lec03.png" width="400" />
 <img src="1lec04.png" width="300" />
 
