@@ -62,6 +62,8 @@ https://www.youtube.com/watch?v=ulcNfCbkX4s
 
     1. Direction accuracy.
     2. Immersion rating: A survey to assess the sense of being immersed in the environment (1-10).
+
+
 https://www.youtube.com/watch?v=m7zhF1iv-5w
 <img src="1lec03.png" width="400" />
 <img src="1lec04.png" width="300" />

@@ -14,8 +14,10 @@ url: "posts/Lecture3-evaluation/"
 #### 1. **User Study Design**
 
 To test the effectiveness of my "Dynamic Curve Arm Swing Flight" technique, I invited two male volunteers to participate in the test.
-<img src="3lec05.png" width="500" />
-<img src="3lec06.png" width="500" />
+
+<img src="3lec05.jpg" width="500" />
+<img src="3lec06.jpg" width="500" />
+
 * **Participants**: 3 (myself + 2 male classmates).
 * **Test task**: Complete the entire Parkour course and collect as many coins as possible.
 * **Evaluation metrics**: We recorded the completion time, coin collection accuracy, and conducted a subjective survey (1-10 scale) on motion sickness, workload, presence, and enjoyment.
