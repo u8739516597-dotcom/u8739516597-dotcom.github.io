@@ -4,7 +4,6 @@ title = "VR Locomotion Blog"
 theme = "PaperMod"
 publishDir = "docs"
 
-# allow HTML in Markdown (img width, etc.)
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
@@ -13,7 +12,9 @@ publishDir = "docs"
 [params]
   mainSections = ["posts"]
   defaultContentLanguage = "en"
-  profileMode = { enabled = false }  # 修改部分，将 profileMode 作为字典形式
+  # PaperMod 推荐的 profileMode 写法
+  [params.profileMode]
+    enabled = false
 
 [params.assets]
   disableFingerprinting = true
