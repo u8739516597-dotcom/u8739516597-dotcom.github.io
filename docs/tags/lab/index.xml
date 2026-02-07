@@ -6,7 +6,7 @@
     <description>Recent content in Lab on VR Locomotion Blog</description>
     <generator>Hugo -- 0.154.5</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 26 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Jan 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/lab/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Lab 1: VR Locomotion Blog</title>
@@ -53,13 +53,6 @@
       <pubDate>Thu, 22 Jan 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/lab3-roll-a-ball/</guid>
       <description>Step-by-step notes for the Roll-a-Ball tutorial, including problems and fixes.</description>
-    </item>
-    <item>
-      <title>Lab 4: Unity Roll-a-Ball in VR</title>
-      <link>http://localhost:1313/posts/lab4-roll-a-ball-vr/</link>
-      <pubDate>Mon, 26 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/lab4-roll-a-ball-vr/</guid>
-      <description>Converted Roll-a-Ball to VR: Android build setup, Meta SDK import, XR settings, scene setup, direct selection + raycasting. Documented issues and what I tried.</description>
     </item>
   </channel>
 </rss>

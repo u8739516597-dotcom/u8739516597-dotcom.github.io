@@ -66,9 +66,22 @@
     <item>
       <title>Lab 4: Unity Roll-a-Ball in VR</title>
       <link>http://localhost:1313/posts/lab4-roll-a-ball-vr/</link>
-      <pubDate>Mon, 26 Jan 2026 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/lab4-roll-a-ball-vr/</guid>
-      <description>Converted Roll-a-Ball to VR: Android build setup, Meta SDK import, XR settings, scene setup, direct selection + raycasting. Documented issues and what I tried.</description>
+      <description>&lt;p&gt;&lt;strong&gt;Lab 4: Unity Roll-a-Ball in VR&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Objective:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This blog records my process of making the classic Roll-a-Ball game in Unity and adapting it to the VR environment. The main focus is on switching from keyboard controls to VR controller interactions. It also covers implementing the two main interaction techniques in VR: Direct Selection and Raycasting.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Implementation Process&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Part 1&lt;/strong&gt;: Turning Unity project into a VR project for Quest&lt;/p&gt;
+&lt;p&gt;Switch to Android platform
+Unity: File &amp;gt; Build Settings &amp;gt; Android &amp;gt; Switch Platform
+&lt;img src=&#34;1.png&#34; width=&#34;400&#34; /&gt;
+Import Meta XR (Oculus) SDK
+Initially, I searched Asset Store for the Meta XR All-in-One SDK, but it was incompatible, so I downloaded and imported Meta XR SDK v56.
+&lt;img src=&#34;2.png&#34; width=&#34;400&#34; /&gt;
+Install XR Plugin Management
+Go to Edit &amp;gt; Project Settings &amp;gt; XR Plug-in Management
+&lt;img src=&#34;3.png&#34; width=&#34;400&#34; /&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lecture 1: VR Locomotion Ideas</title>
@@ -134,8 +147,7 @@
       <link>http://localhost:1313/posts/lab5/</link>
       <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/lab5/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Hybrid Biometric Locomotion: Arm-Swing &amp;amp; Avian Flight&lt;/strong&gt;&lt;/p&gt;
-&lt;h4 id=&#34;1-interaction--concept&#34;&gt;&lt;strong&gt;1. Interaction &amp;amp; Concept&lt;/strong&gt;&lt;/h4&gt;
+      <description>&lt;p&gt;&lt;strong&gt;Hybrid Biometric Locomotion: Ground-Walk＋Sky-Flight&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;In this experiment, I designed a system called &amp;ldquo;Hybrid Dynamics&amp;rdquo; to provide an immersive and comfortable VR experience using natural body movements.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;

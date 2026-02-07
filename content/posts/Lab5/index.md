@@ -9,9 +9,7 @@ draft: false
 
 
 
-**Hybrid Biometric Locomotion: Arm-Swing & Avian Flight**
-
-#### **1. Interaction & Concept**
+**Hybrid Biometric Locomotion: Ground-Walk＋Sky-Flight**
 
 In this experiment, I designed a system called "Hybrid Dynamics" to provide an immersive and comfortable VR experience using natural body movements.
 
@@ -84,13 +82,6 @@ GitHub repository link: [link]
 #### **7. Demo Video**
 
 Video link: [link]
-
-
-
-
-
-
-
 
 
 

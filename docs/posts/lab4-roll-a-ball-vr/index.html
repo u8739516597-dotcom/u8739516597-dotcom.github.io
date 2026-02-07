@@ -6,8 +6,21 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
 <title>Lab 4: Unity Roll-a-Ball in VR | VR Locomotion Blog</title>
-<meta name="keywords" content="Unity, VR, Lab, Mixed Reality">
-<meta name="description" content="Converted Roll-a-Ball to VR: Android build setup, Meta SDK import, XR settings, scene setup, direct selection &#43; raycasting. Documented issues and what I tried.">
+<meta name="keywords" content="">
+<meta name="description" content="Lab 4: Unity Roll-a-Ball in VR
+Objective:
+This blog records my process of making the classic Roll-a-Ball game in Unity and adapting it to the VR environment. The main focus is on switching from keyboard controls to VR controller interactions. It also covers implementing the two main interaction techniques in VR: Direct Selection and Raycasting.
+Implementation Process
+Part 1: Turning Unity project into a VR project for Quest
+Switch to Android platform
+Unity: File &gt; Build Settings &gt; Android &gt; Switch Platform
+
+Import Meta XR (Oculus) SDK
+Initially, I searched Asset Store for the Meta XR All-in-One SDK, but it was incompatible, so I downloaded and imported Meta XR SDK v56.
+
+Install XR Plugin Management
+Go to Edit &gt; Project Settings &gt; XR Plug-in Management
+">
 <meta name="author" content="">
 <link rel="canonical" href="http://localhost:1313/posts/lab4-roll-a-ball-vr/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.css" rel="preload stylesheet" as="style">
@@ -112,84 +125,95 @@
     <h1 class="post-title entry-hint-parent">
       Lab 4: Unity Roll-a-Ball in VR
     </h1>
-    <div class="post-meta"><span title='2026-01-26 00:00:00 +0000 UTC'>January 26, 2026</span>
+    <div class="post-meta"><span title='2026-02-06 00:00:00 +0000 UTC'>February 6, 2026</span>
 
 </div>
   </header> 
-  <div class="post-content"><p>Overview</p>
-<p>In this lab, I converted the Roll-a-Ball project to VR. I set the project to Android, imported the Meta SDK, enabled XR, and tested interactions in VR.</p>
-<hr>
-<p><strong>Step 1: Create a 3D project and switch to Android platform</strong></p>
-<img src="4fig01.png" width="300" />
-<hr>
-<p><strong>Step 2: Import Meta All-in-one SDK</strong></p>
-<p>Problem: At first, I could not find tutorial examples, so I checked the README file and followed it.</p>
-<img src="4fig02.png" width="400" />
-<hr>
-<p><strong>Step 3: Install XR Plugin Management</strong></p>
-<img src="4fig03.png" width="400" />
-<hr>
-<p><strong>Step 4: Create a new scene</strong></p>
-<img src="4fig04.png" width="400" />
-<hr>
-<p><strong>Step 5: Settings for controllers</strong></p>
-<img src="4fig05.png" width="300" />
-<hr>
-<p><strong>Step 6: Setup the scene</strong></p>
-<img src="4fig06.png" width="400" />
-<p>One major problem I encountered was that, since I’m working on a MacBook, I couldn’t run or test the VR project directly on a Meta headset. To overcome this, I had to rely on the Meta XR Simulator for development and testing. This required configuring the project in Unity 2022, ensuring compatibility with the OpenXR plugin, and properly setting up the simulator as the active runtime. Only after completing these steps was I finally able to simulate controller and headset input on my local machine.</p>
-<img src="4fig07.png" width="400" />
-<hr>
-<p><strong>Step 7: Add collider for Roll-a-Ball</strong></p>
-<img src="4fig08.png" width="400" />
-<hr>
-<p><strong>Step 8: Add layers and assign them to objects</strong></p>
-<p>At first, I did not understand layers clearly. Later, I realized layers are just labels for detection. The order does not matter.</p>
-<img src="4fig09.png" width="300" />
-<img src="4fig10.png" width="300" />
-<img src="4fig11.png" width="300" />
-<hr>
-<p><strong>Step 9: Add collider to hand anchors and set them to the selection layer</strong></p>
-<img src="4fig12.png" width="200" />
-<img src="4fig13.png" width="200" />
-<hr>
-<p><strong>Step 10: Disable collision between ?oll-a-Ball??and ?election??layers</strong></p>
-<img src="4fig14.png" width="300" />
-<hr>
-<p><strong>Step 11: Add Rigidbody and set different values</strong></p>
-<p>Because we use trigger events, objects need Rigidbody. Hand anchors are set to Kinematic (no gravity). The ball uses gravity (not kinematic).</p>
-<img src="4fig15.png" width="200" />
-<img src="4fig16.png" width="200" />
-<img src="4fig17.png" width="200" />
-<hr>
-<p><strong>Step 12: write the interaction script and assign it to the hand anchor</strong>
-<img src="4fig18.png" width="400" />
-<img src="4fig19.png" width="400" />
-<img src="4fig20.png" width="400" /></p>
-<p>In this step we wrote a script allowing the controller to pick up and release a ball in VR. When the controller enters the ball? collider and the player pulls the trigger, the ball becomes a child of the controller and follows its movement. When the trigger is released, the ball is detached, gravity is enabled again, and the ball continues moving based on the velocity of the hand.</p>
-<p>Direct Selection
-<img src="4fig21.png" width="300" /></p>
-<hr>
-<p><strong>Problems / Notes</strong></p>
-<p><strong>1) PickUp objects no longer detected</strong></p>
-<p>I implemented direct selection and grabbing, but the original PickUp detection stopped working. I checked colliders, trigger settings, tags, and layers, but it still did not work. Even when I created a new cube with <code>Is Trigger</code> and tag <code>PickUp</code>, nothing appeared in the console.</p>
-<img src="4fig22.png" width="300" />
-<p><strong>2) Raycasting issue (material / color)</strong></p>
-<p>I tried to change the object color when hit by the ray, but I lost the material. In the end, I only displayed the ray and used it to move the object.</p>
-<img src="4fig23.png" width="300" />
-<hr>
-<p><strong>Result</strong></p>
-<p>The VR version can run in VR, and direct selection works (grab/release). Raycasting partially works (ray + moving object).</p>
+  <div class="post-content"><p><strong>Lab 4: Unity Roll-a-Ball in VR</strong></p>
+<p><strong>Objective:</strong></p>
+<p>This blog records my process of making the classic Roll-a-Ball game in Unity and adapting it to the VR environment. The main focus is on switching from keyboard controls to VR controller interactions. It also covers implementing the two main interaction techniques in VR: Direct Selection and Raycasting.</p>
+<p><strong>Implementation Process</strong></p>
+<p><strong>Part 1</strong>: Turning Unity project into a VR project for Quest</p>
+<p>Switch to Android platform
+Unity: File &gt; Build Settings &gt; Android &gt; Switch Platform
+<img src="1.png" width="400" />
+Import Meta XR (Oculus) SDK
+Initially, I searched Asset Store for the Meta XR All-in-One SDK, but it was incompatible, so I downloaded and imported Meta XR SDK v56.
+<img src="2.png" width="400" />
+Install XR Plugin Management
+Go to Edit &gt; Project Settings &gt; XR Plug-in Management
+<img src="3.png" width="400" /></p>
+<p><strong>Part 2</strong>: Importing Roll-a-Ball from Lab 2 into the VR scene</p>
+<ol>
+<li>
+<p>In the VR project, import the Lab 2 project
+Assets &gt; Import Package &gt; Custom Package
+<img src="4.png" width="400" /></p>
+</li>
+<li>
+<p><strong>Fix Errors</strong></p>
+<p>After importing, there was an error because Oculus Integration also had a script called PlayerController.
+I renamed the Roll-a-Ball PlayerController.cs and commented out the Input System code. I then used Oculus/Meta input methods.
+<img src="5.png" width="400" /></p>
+</li>
+<li>
+<p><strong>Implement Interaction Techniques</strong></p>
+<p><strong>Direct Selection</strong></p>
+<ul>
+<li>
+<p>Add the XR Direct Interactor component to the left and right controllers.</p>
+</li>
+<li>
+<p>Add a Sphere Collider to act as the interaction trigger zone, checking &ldquo;Is Trigger&rdquo; to avoid physical collisions.
+<img src="6.png" width="400" />
+<img src="7.png" width="400" />
+<img src="8.png" width="400" />
+<strong>Raycasting</strong></p>
+</li>
+<li>
+<p>Add XR Ray Interactor component to the controller.</p>
+</li>
+<li>
+<p>Add XR Interactor Line Visual and Line Renderer for visual effects.</p>
+</li>
+<li>
+<p>Ensure the Layer for the coins is within the raycast&rsquo;s detection range.
+<img src="9.png" width="400" />
+<img src="12.png" width="400" />
+<img src="13.png" width="400" />
+<strong>Problems and Solutions</strong></p>
+</li>
+<li>
+<p><strong>Problem 1</strong>: Coins can&rsquo;t be selected by raycast</p>
+<ul>
+<li><strong>Cause</strong>: Coins were missing the XR Grab Interactable component.</li>
+<li><strong>Solution</strong>: I added the XR Grab Interactable component to all collectable items and set them to &ldquo;Is Trigger&rdquo; to prevent them from flying out due to physics collisions.
+<img src="10.png" width="400" /></li>
+</ul>
+</li>
+<li>
+<p><strong>Problem 2</strong>: VR motion sickness</p>
+<ul>
+<li><strong>Cause</strong>: The ball was moving too fast, and the camera followed too roughly.</li>
+<li><strong>Solution</strong>: I adjusted the smooth-follow parameters and added a slight edge-blocking effect to the camera view.
+<img src="11.png" width="400" />
+<strong>Suggestions</strong></li>
+</ul>
+</li>
+</ul>
+<p>If others are trying to convert Roll-a-Ball to VR:</p>
+<ol>
+<li><strong>Layer Management</strong>: Ensure interaction layers are set correctly to avoid the ray touching the ground&rsquo;s collision.</li>
+<li><strong>Physical Balance</strong>: Physics in VR feels very different from on-screen. Spend time adjusting the friction and resistance of the ball.</li>
+</ol>
+</li>
+</ol>
 
 
   </div>
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="http://localhost:1313/tags/unity/">Unity</a></li>
-      <li><a href="http://localhost:1313/tags/vr/">VR</a></li>
-      <li><a href="http://localhost:1313/tags/lab/">Lab</a></li>
-      <li><a href="http://localhost:1313/tags/mixed-reality/">Mixed Reality</a></li>
     </ul>
   </footer>
 </article>
