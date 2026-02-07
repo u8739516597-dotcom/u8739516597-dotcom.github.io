@@ -3,6 +3,7 @@ title: "Lecture 3: Evaluating Locomotion Technique"
 date: "2026-02-03"
 weight: 8
 draft: false
+url: "posts/lecture3-evaluation/"
 ---
 
 
