@@ -83,7 +83,8 @@ https://github.com/u8739516597-dotcom/FInal-project
 
 #### **7. Demo Video**
 
-Video link: [link]
+Video link: 
 
+https://drive.google.com/file/d/1Tv3yYzxmb0Ca7HB2pB89vORRg9Wrv31n/view?usp=sharing
 
 
