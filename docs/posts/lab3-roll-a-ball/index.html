@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto" data-theme="auto">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="noindex, nofollow">
+<meta name="robots" content="index, follow">
 <title>Lab 3: roll-a-ball | VR Locomotion Blog</title>
 <meta name="keywords" content="Unity, Lab, Roll-a-Ball, Mixed Reality">
 <meta name="description" content="Step-by-step notes for the Roll-a-Ball tutorial, including problems and fixes.">
 <meta name="author" content="">
-<link rel="canonical" href="http://localhost:1313/posts/lab3-roll-a-ball/">
+<link rel="canonical" href="https://u8739516597-dotcom.github.io/posts/lab3-roll-a-ball/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.css" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://localhost:1313/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
-<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
-<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<link rel="icon" href="https://u8739516597-dotcom.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://u8739516597-dotcom.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://u8739516597-dotcom.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://u8739516597-dotcom.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://u8739516597-dotcom.github.io/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/lab3-roll-a-ball/">
+<link rel="alternate" hreflang="en" href="https://u8739516597-dotcom.github.io/posts/lab3-roll-a-ball/">
 <noscript>
     <style>
         #theme-toggle,
@@ -70,13 +70,79 @@
         document.querySelector("html").dataset.theme = 'light';
     }
 
+</script><meta property="og:url" content="https://u8739516597-dotcom.github.io/posts/lab3-roll-a-ball/">
+  <meta property="og:site_name" content="VR Locomotion Blog">
+  <meta property="og:title" content="Lab 3: roll-a-ball">
+  <meta property="og:description" content="Step-by-step notes for the Roll-a-Ball tutorial, including problems and fixes.">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-01-22T00:00:00+00:00">
+    <meta property="article:modified_time" content="2026-01-22T00:00:00+00:00">
+    <meta property="article:tag" content="Unity">
+    <meta property="article:tag" content="Lab">
+    <meta property="article:tag" content="Roll-a-Ball">
+    <meta property="article:tag" content="Mixed Reality">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Lab 3: roll-a-ball">
+<meta name="twitter:description" content="Step-by-step notes for the Roll-a-Ball tutorial, including problems and fixes.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://u8739516597-dotcom.github.io/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Lab 3: roll-a-ball",
+      "item": "https://u8739516597-dotcom.github.io/posts/lab3-roll-a-ball/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Lab 3: roll-a-ball",
+  "name": "Lab 3: roll-a-ball",
+  "description": "Step-by-step notes for the Roll-a-Ball tutorial, including problems and fixes.",
+  "keywords": [
+    "Unity", "Lab", "Roll-a-Ball", "Mixed Reality"
+  ],
+  "articleBody": "Authors: Peiwen Zhang,\nUniversité Paris-Saclay, HCI M1.\n1. Goals and Completion Status\nCompleted the basic functionalities of the Roll A Ball project: moving the ball, collecting objects, and displaying the score.\nIt can be played and run normally in the Unity Editor, and the interaction and scoring are normal.\n2. Environment Information\nOperating System: Windows Unity Editor Version: 2020.3.49f1\n3. Core Implementation\n3.0 Scene and Object Setup\nI created a new scene and saved it as the main scene for this project. I create a Player (sphere) and place it above the ground as the player control object.\n3.1 Player Movement\nI confirmed in the scene that the Player (sphere) object has a Rigidbody and control script attached.\nCamera follow function set\nAfter entering Play mode, I successfully controlled the ball’s movement using WASD or the arrow keys.\n3.2 Pickups\nI confirmed that the Collider of each Pickup object has Is Trigger checked to trigger the collection check.\nI use OnTriggerEnter in my script to identify collision objects and execute collection logic.\nAfter I touched the PickUp in Play mode, the object was successfully collected and disappeared from the scene.\n**3.3 Scoring and UI (Score UI) ** I created a Canvas and a Score Text in the scene to display the current score.\nI bind the score variable to UI text in the script and refresh the displayed content after collection.\nAfter I collect objects in Play mode, the Score value changes immediately and is displayed correctly.\n4. Issues and Solutions\nNo errors preventing the process from occurring; the project was confirmed to be functioning correctly via Play and Console checks.\n",
+  "wordCount" : "271",
+  "inLanguage": "en",
+  "datePublished": "2026-01-22T00:00:00Z",
+  "dateModified": "2026-01-22T00:00:00Z",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://u8739516597-dotcom.github.io/posts/lab3-roll-a-ball/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "VR Locomotion Blog",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://u8739516597-dotcom.github.io/favicon.ico"
+    }
+  }
+}
 </script>
 </head>
 <body id="top">
     <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="VR Locomotion Blog (Alt + H)">VR Locomotion Blog</a>
+            <a href="https://u8739516597-dotcom.github.io/" accesskey="h" title="VR Locomotion Blog (Alt + H)">VR Locomotion Blog</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -162,17 +228,17 @@ I created a Canvas and a Score Text in the scene to display the current score.</
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="http://localhost:1313/tags/unity/">Unity</a></li>
-      <li><a href="http://localhost:1313/tags/lab/">Lab</a></li>
-      <li><a href="http://localhost:1313/tags/roll-a-ball/">Roll-a-Ball</a></li>
-      <li><a href="http://localhost:1313/tags/mixed-reality/">Mixed Reality</a></li>
+      <li><a href="https://u8739516597-dotcom.github.io/tags/unity/">Unity</a></li>
+      <li><a href="https://u8739516597-dotcom.github.io/tags/lab/">Lab</a></li>
+      <li><a href="https://u8739516597-dotcom.github.io/tags/roll-a-ball/">Roll-a-Ball</a></li>
+      <li><a href="https://u8739516597-dotcom.github.io/tags/mixed-reality/">Mixed Reality</a></li>
     </ul>
   </footer>
 </article>
     </main>
     
 <footer class="footer">
-        <span>&copy; 2026 <a href="http://localhost:1313/">VR Locomotion Blog</a></span> · 
+        <span>&copy; 2026 <a href="https://u8739516597-dotcom.github.io/">VR Locomotion Blog</a></span> · 
 
     <span>
         Powered by
