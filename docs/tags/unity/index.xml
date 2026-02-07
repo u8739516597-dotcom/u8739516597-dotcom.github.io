@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Unity on VR Locomotion Blog</title>
-    <link>https://u8739516597-dotcom.github.io/tags/unity/</link>
+    <link>http://localhost:1313/tags/unity/</link>
     <description>Recent content in Unity on VR Locomotion Blog</description>
     <generator>Hugo -- 0.154.5</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 22 Jan 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://u8739516597-dotcom.github.io/tags/unity/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/unity/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Lab 1: VR Locomotion Blog</title>
-      <link>https://u8739516597-dotcom.github.io/posts/lab1-vr-locomotion-blog/</link>
+      <link>http://localhost:1313/posts/lab1-vr-locomotion-blog/</link>
       <pubDate>Sun, 18 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://u8739516597-dotcom.github.io/posts/lab1-vr-locomotion-blog/</guid>
+      <guid>http://localhost:1313/posts/lab1-vr-locomotion-blog/</guid>
       <description>&lt;p&gt;Authors: Peiwen Zhang&lt;/p&gt;
 &lt;p&gt;Université Paris-Saclay, HCI M1.&lt;/p&gt;
 &lt;hr&gt;
@@ -20,7 +20,7 @@
 &lt;p&gt;My group blog website is successfully online. It can be opened normally and the theme style is displayed correctly.&lt;/p&gt;
 &lt;p&gt;Website link:&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://u8739516597-dotcom.github.io/&#34;&gt;https://u8739516597-dotcom.github.io/&lt;/a&gt;
-&lt;img loading=&#34;lazy&#34; src=&#34;https://u8739516597-dotcom.github.io/posts/lab1-vr-locomotion-blog/1fig01.png&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://u8739516597-dotcom.github.io/posts/lab1-vr-locomotion-blog/1fig02.png&#34;&gt;&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/lab1-vr-locomotion-blog/1fig01.png&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/lab1-vr-locomotion-blog/1fig02.png&#34;&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;strong&gt;2. Our Solution&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;I use **Hugo** as a static site generator, use **PaperMod** as the theme, and publish the website by **GitHub Pages**.&lt;/p&gt;
@@ -31,9 +31,9 @@
     </item>
     <item>
       <title>Lab 2: Unity Setup Report</title>
-      <link>https://u8739516597-dotcom.github.io/posts/lab2-unity-setup/</link>
+      <link>http://localhost:1313/posts/lab2-unity-setup/</link>
       <pubDate>Tue, 20 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://u8739516597-dotcom.github.io/posts/lab2-unity-setup/</guid>
+      <guid>http://localhost:1313/posts/lab2-unity-setup/</guid>
       <description>&lt;p&gt;Unity environment setup on Windows: installed Unity 2020.3.49f1 (LTS), added required modules (IL2CPP, Android Build Support, OpenJDK), and verified by creating a 3D project.&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;strong&gt;1. Goal&lt;/strong&gt;&lt;/p&gt;
@@ -42,16 +42,16 @@
 &lt;p&gt;&lt;strong&gt;2. Environment Information&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;- Operating System: Windows&lt;/p&gt;
 &lt;p&gt;- Unity Editor Version:** 2020.3.49f1 (Unity 2020 LTS)&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://u8739516597-dotcom.github.io/posts/lab2-unity-setup/2fig01.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/lab2-unity-setup/2fig01.png&#34;&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;strong&gt;3. Install Unity 2020.3.49f1 and Modules&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;3.1 Install Unity via Download Archive&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lab 3: roll-a-ball</title>
-      <link>https://u8739516597-dotcom.github.io/posts/lab3-roll-a-ball/</link>
+      <link>http://localhost:1313/posts/lab3-roll-a-ball/</link>
       <pubDate>Thu, 22 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://u8739516597-dotcom.github.io/posts/lab3-roll-a-ball/</guid>
+      <guid>http://localhost:1313/posts/lab3-roll-a-ball/</guid>
       <description>Step-by-step notes for the Roll-a-Ball tutorial, including problems and fixes.</description>
     </item>
   </channel>
