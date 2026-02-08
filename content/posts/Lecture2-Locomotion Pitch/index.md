@@ -12,6 +12,15 @@ draft: false
 
 #### 1. **Slide Link**
 
+3 Creative Ideas for VR Locomotion:
+
+https://drive.google.com/file/d/14EKRitM61CSdtrCo2I2Yvx7AvmqVnucy/view?usp=sharing
+
+Ptich:
+
+https://drive.google.com/file/d/1zc0TcAIUd0dSnDC9t79VvC_-N0OYMjKX/view?usp=sharing
+
+
 
 
 
@@ -44,6 +53,7 @@ To improve further, I have two advanced ideas:
 
   * Using controller vibrations to simulate "wind resistance" based on arm swing power, helping to reduce motion sickness caused by visual displacement.
 
+
 * **Stage 2: Full-Body Multi-Sensor Integration**:
 
   * Using leg trackers to spread the physical movement across the whole body, reducing fatigue from arm swinging and making the movement feel more natural.
@@ -53,5 +63,6 @@ To improve further, I have two advanced ideas:
 #### 4. **Conclusion**
 
 Good VR movement technology should not only focus on speed but also respect physical limits and predict user fatigue. The main value of the "Arm Swing Power Glide" is that it converts the unstable physical energy from the body into smooth, reliable, and rewarding virtual movement.
+
 
 

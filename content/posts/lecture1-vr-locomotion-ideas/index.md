@@ -43,6 +43,7 @@ In this assignment, I explored three different VR movement technologies, underst
   * Metrics: Use the Simulator Sickness Questionnaire (SSQ) to evaluate the effect on motion sickness (1-10).
 
 https://www.youtube.com/watch?v=ulcNfCbkX4s
+<img src="1lec05.png" width="400" />
 <img src="1lec02.png" width="600" />
 
 
@@ -67,5 +68,6 @@ https://www.youtube.com/watch?v=ulcNfCbkX4s
 https://www.youtube.com/watch?v=m7zhF1iv-5w
 <img src="1lec03.png" width="400" />
 <img src="1lec04.png" width="300" />
+<img src="1lec06.png" width="400" />
 
 
