@@ -14,11 +14,11 @@ draft: false
 
 3 Creative Ideas for VR Locomotion:
 
-https://drive.google.com/file/d/14EKRitM61CSdtrCo2I2Yvx7AvmqVnucy/view?usp=sharing
+https://drive.google.com/file/d/1Yu3T573hupCwZj9BVJq5NSAc7eCApzyJ/view?usp=sharing
 
 Ptich:
 
-https://drive.google.com/file/d/1zc0TcAIUd0dSnDC9t79VvC_-N0OYMjKX/view?usp=sharing
+https://drive.google.com/file/d/1e-EcriRIjRLWaMXqHNB59H5v7EqJTJeG/view?usp=sharing
 
 
 
